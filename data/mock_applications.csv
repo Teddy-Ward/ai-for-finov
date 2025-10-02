@@ -1,0 +1,1001 @@
+ApplicantID,Income,CreditScore,LTV,DebtToIncomeRatio,EmploymentStatus,RejectionReason
+10001,89286.81,732,86.67,48.4,PAYE,Affordability / High DTI
+10002,60771.32,769,82.21,32.24,Self-Employed < 2yrs,Insufficient trading history
+10003,59175.2,693,92.25,30.08,PAYE,LTV exceeds product maximum
+10004,63176.4,678,86.05,56.37,PAYE,Affordability / High DTI
+10005,65247.02,671,78.51,26.77,Self-Employed < 2yrs,Insufficient trading history
+10006,98773.07,785,68.36,17.11,Self-Employed < 2yrs,Insufficient trading history
+10007,97311.05,603,52.41,20.26,PAYE,Adverse credit history
+10008,86830.41,563,58.93,19.76,PAYE,Adverse credit history
+10009,46794.04,713,92.16,27.13,PAYE,LTV exceeds product maximum
+10010,78213.44,855,84.39,52.37,PAYE,Affordability / High DTI
+10011,71254.57,810,92.26,35.0,PAYE,LTV exceeds product maximum
+10012,79914.87,737,81.56,51.32,PAYE,Affordability / High DTI
+10013,62933.73,755,91.49,36.46,PAYE,LTV exceeds product maximum
+10014,109780.14,586,58.97,10.0,PAYE,Adverse credit history
+10015,60386.87,820,90.76,38.61,PAYE,LTV exceeds product maximum
+10016,93158.56,603,64.6,19.65,PAYE,Adverse credit history
+10017,72361.15,720,89.92,43.76,PAYE,Affordability / High DTI
+10018,107474.59,565,64.76,15.48,PAYE,Adverse credit history
+10019,60399.37,734,84.25,51.78,PAYE,Affordability / High DTI
+10020,63648.48,834,92.65,32.97,PAYE,LTV exceeds product maximum
+10021,97070.39,600,74.48,16.87,PAYE,Adverse credit history
+10022,71559.35,812,71.92,28.12,Self-Employed < 2yrs,Insufficient trading history
+10023,55360.51,792,91.95,21.96,PAYE,LTV exceeds product maximum
+10024,57948.54,735,97.42,45.72,PAYE,Affordability / High DTI
+10025,77305.36,652,58.56,24.95,PAYE,Adverse credit history
+10026,59588.68,776,92.08,25.09,PAYE,LTV exceeds product maximum
+10027,57449.06,863,87.29,45.81,PAYE,Affordability / High DTI
+10028,114511.66,587,81.05,14.46,PAYE,Adverse credit history
+10029,61403.46,753,91.28,32.55,PAYE,LTV exceeds product maximum
+10030,90664.63,756,69.02,19.26,Self-Employed < 2yrs,Insufficient trading history
+10031,67047.64,797,89.16,46.57,PAYE,Affordability / High DTI
+10032,71641.61,678,85.07,45.68,PAYE,Affordability / High DTI
+10033,73187.59,791,91.17,30.47,PAYE,LTV exceeds product maximum
+10034,58920.76,773,94.73,40.17,PAYE,LTV exceeds product maximum
+10035,61281.5,788,94.19,42.6,PAYE,LTV exceeds product maximum
+10036,64920.73,581,59.91,18.26,PAYE,Adverse credit history
+10037,100749.03,584,71.3,22.58,PAYE,Adverse credit history
+10038,70149.67,723,83.39,50.28,PAYE,Affordability / High DTI
+10039,101738.14,624,67.94,19.94,PAYE,Adverse credit history
+10040,93933.53,747,72.58,37.15,Self-Employed < 2yrs,Insufficient trading history
+10041,72755.84,639,80.4,54.23,PAYE,Affordability / High DTI
+10042,94904.1,544,57.04,15.96,PAYE,Adverse credit history
+10043,72752.74,599,60.79,23.34,PAYE,Adverse credit history
+10044,94205.72,580,64.37,23.81,PAYE,Adverse credit history
+10045,51347.34,812,90.71,24.6,PAYE,LTV exceeds product maximum
+10046,86912.12,592,67.79,22.62,PAYE,Adverse credit history
+10047,68349.12,609,71.44,10.01,PAYE,Adverse credit history
+10048,74086.16,756,80.42,25.0,Self-Employed < 2yrs,Insufficient trading history
+10049,52993.42,724,84.71,50.29,PAYE,Affordability / High DTI
+10050,90905.9,804,77.01,24.5,Self-Employed < 2yrs,Insufficient trading history
+10051,63169.94,900,69.12,29.92,Self-Employed < 2yrs,Insufficient trading history
+10052,86792.84,599,59.39,30.16,PAYE,Adverse credit history
+10053,56131.0,778,82.15,52.13,PAYE,Affordability / High DTI
+10054,68509.1,597,68.24,23.94,PAYE,Adverse credit history
+10055,80135.54,703,89.16,43.56,PAYE,Affordability / High DTI
+10056,68125.65,795,88.19,50.96,PAYE,Affordability / High DTI
+10057,52998.54,585,67.72,22.56,PAYE,Adverse credit history
+10058,70675.58,761,79.14,24.74,Self-Employed < 2yrs,Insufficient trading history
+10059,67260.61,668,88.92,51.28,PAYE,Affordability / High DTI
+10060,56374.0,786,90.7,25.46,PAYE,LTV exceeds product maximum
+10061,79051.38,766,81.44,55.02,PAYE,Affordability / High DTI
+10062,100302.57,577,60.81,14.64,PAYE,Adverse credit history
+10063,99497.79,598,60.62,19.25,PAYE,Adverse credit history
+10064,55505.14,627,86.7,52.43,PAYE,Affordability / High DTI
+10065,60311.06,755,84.03,46.4,PAYE,Affordability / High DTI
+10066,64112.39,591,67.95,15.86,PAYE,Adverse credit history
+10067,60873.95,824,92.64,28.54,PAYE,LTV exceeds product maximum
+10068,54993.62,644,76.95,27.55,Self-Employed < 2yrs,Insufficient trading history
+10069,52226.0,770,90.2,20.81,PAYE,LTV exceeds product maximum
+10070,92397.79,692,87.68,47.38,PAYE,Affordability / High DTI
+10071,65887.66,748,94.91,30.28,PAYE,LTV exceeds product maximum
+10072,58097.82,729,91.3,36.73,PAYE,LTV exceeds product maximum
+10073,62209.92,683,81.5,51.87,PAYE,Affordability / High DTI
+10074,86837.33,737,76.59,25.0,Self-Employed < 2yrs,Insufficient trading history
+10075,56334.47,772,93.37,33.73,PAYE,LTV exceeds product maximum
+10076,64256.05,664,84.9,50.73,PAYE,Affordability / High DTI
+10077,53867.71,648,81.78,49.23,PAYE,Affordability / High DTI
+10078,90159.43,706,76.42,25.43,Self-Employed < 2yrs,Insufficient trading history
+10079,69148.75,728,80.64,19.05,Self-Employed < 2yrs,Insufficient trading history
+10080,96920.09,757,70.67,30.04,Self-Employed < 2yrs,Insufficient trading history
+10081,98672.36,626,62.33,30.5,PAYE,Adverse credit history
+10082,53331.51,793,76.02,24.13,Self-Employed < 2yrs,Insufficient trading history
+10083,56651.91,593,63.26,18.0,PAYE,Adverse credit history
+10084,78591.31,712,82.01,49.65,PAYE,Affordability / High DTI
+10085,55549.04,619,61.63,24.39,PAYE,Adverse credit history
+10086,61746.43,814,88.76,30.84,PAYE,LTV exceeds product maximum
+10087,46093.26,582,89.8,57.7,PAYE,Affordability / High DTI
+10088,99538.48,558,61.67,12.96,PAYE,Adverse credit history
+10089,52827.07,767,87.73,48.73,PAYE,Affordability / High DTI
+10090,69076.16,744,91.37,34.2,PAYE,LTV exceeds product maximum
+10091,65604.05,688,71.84,12.37,Self-Employed < 2yrs,Insufficient trading history
+10092,72036.39,763,92.96,29.92,PAYE,LTV exceeds product maximum
+10093,61544.85,774,87.51,50.33,PAYE,Affordability / High DTI
+10094,52442.09,785,82.03,46.28,PAYE,Affordability / High DTI
+10095,56061.81,748,92.66,30.23,PAYE,LTV exceeds product maximum
+10096,65469.05,775,68.64,28.46,Self-Employed < 2yrs,Insufficient trading history
+10097,94057.47,604,66.24,20.46,PAYE,Adverse credit history
+10098,98293.16,755,67.74,29.84,Self-Employed < 2yrs,Insufficient trading history
+10099,97046.21,629,56.82,19.13,PAYE,Adverse credit history
+10100,59270.64,751,83.04,25.82,Self-Employed < 2yrs,Insufficient trading history
+10101,95180.77,627,56.49,17.71,PAYE,Adverse credit history
+10102,60495.02,790,92.89,32.7,PAYE,LTV exceeds product maximum
+10103,65864.07,794,90.79,24.89,PAYE,LTV exceeds product maximum
+10104,60448.91,722,92.16,26.49,PAYE,LTV exceeds product maximum
+10105,76099.45,763,74.03,23.8,Self-Employed < 2yrs,Insufficient trading history
+10106,89117.17,875,80.45,30.46,Self-Employed < 2yrs,Insufficient trading history
+10107,57626.92,774,92.52,38.76,PAYE,LTV exceeds product maximum
+10108,48835.21,764,65.6,24.73,Self-Employed < 2yrs,Insufficient trading history
+10109,80526.53,691,85.94,48.39,PAYE,Affordability / High DTI
+10110,89377.36,599,76.67,18.51,PAYE,Adverse credit history
+10111,48486.16,569,61.2,23.23,PAYE,Adverse credit history
+10112,66335.45,706,76.19,15.28,Self-Employed < 2yrs,Insufficient trading history
+10113,38425.17,716,74.36,22.62,Self-Employed < 2yrs,Insufficient trading history
+10114,72833.48,736,75.12,24.22,Self-Employed < 2yrs,Insufficient trading history
+10115,90036.92,739,81.13,27.2,Self-Employed < 2yrs,Insufficient trading history
+10116,69281.36,808,92.17,35.61,PAYE,LTV exceeds product maximum
+10117,42910.2,744,94.22,27.77,PAYE,LTV exceeds product maximum
+10118,61490.03,771,91.91,22.85,PAYE,LTV exceeds product maximum
+10119,55837.48,830,94.86,29.82,PAYE,LTV exceeds product maximum
+10120,62778.68,751,85.54,48.71,PAYE,Affordability / High DTI
+10121,59861.64,832,70.8,25.66,Self-Employed < 2yrs,Insufficient trading history
+10122,71425.24,755,71.78,20.36,Self-Employed < 2yrs,Insufficient trading history
+10123,80448.48,750,74.45,24.94,Self-Employed < 2yrs,Insufficient trading history
+10124,50558.18,662,82.18,47.56,PAYE,Affordability / High DTI
+10125,77892.08,786,79.67,33.34,Self-Employed < 2yrs,Insufficient trading history
+10126,85287.23,595,69.93,16.3,PAYE,Adverse credit history
+10127,91655.14,572,60.97,27.95,PAYE,Adverse credit history
+10128,51963.1,709,93.18,37.53,PAYE,LTV exceeds product maximum
+10129,81813.26,790,69.21,20.75,Self-Employed < 2yrs,Insufficient trading history
+10130,44768.82,572,50.0,21.18,PAYE,Adverse credit history
+10131,105101.16,612,67.46,25.92,PAYE,Adverse credit history
+10132,69689.35,803,91.25,22.85,PAYE,LTV exceeds product maximum
+10133,52129.58,790,91.57,26.72,PAYE,LTV exceeds product maximum
+10134,79574.25,589,60.87,23.43,PAYE,Adverse credit history
+10135,91593.61,588,81.03,22.6,PAYE,Adverse credit history
+10136,55763.87,827,89.94,33.31,PAYE,LTV exceeds product maximum
+10137,54860.13,798,93.81,38.23,PAYE,LTV exceeds product maximum
+10138,100767.05,607,66.92,13.01,PAYE,Adverse credit history
+10139,57106.95,643,88.51,49.42,PAYE,Affordability / High DTI
+10140,95075.1,567,64.79,12.82,PAYE,Adverse credit history
+10141,65592.23,690,88.1,54.63,PAYE,Affordability / High DTI
+10142,27259.9,626,58.75,17.42,PAYE,Adverse credit history
+10143,64654.09,675,84.25,50.08,PAYE,Affordability / High DTI
+10144,68860.56,552,59.27,16.89,PAYE,Adverse credit history
+10145,56545.83,749,86.22,41.41,PAYE,Affordability / High DTI
+10146,44481.46,790,91.77,33.62,PAYE,LTV exceeds product maximum
+10147,60413.47,831,92.86,27.8,PAYE,LTV exceeds product maximum
+10148,52405.22,712,92.06,25.3,PAYE,LTV exceeds product maximum
+10149,72750.59,801,94.74,21.81,PAYE,LTV exceeds product maximum
+10150,65075.88,764,80.64,51.01,PAYE,Affordability / High DTI
+10151,57428.17,736,80.1,29.64,Self-Employed < 2yrs,Insufficient trading history
+10152,61451.08,792,93.86,24.19,PAYE,LTV exceeds product maximum
+10153,68722.1,676,88.21,46.03,PAYE,Affordability / High DTI
+10154,83301.22,693,78.63,25.02,Self-Employed < 2yrs,Insufficient trading history
+10155,60156.92,745,68.98,17.15,Self-Employed < 2yrs,Insufficient trading history
+10156,60342.34,734,92.88,34.72,PAYE,LTV exceeds product maximum
+10157,59655.58,684,83.93,47.97,PAYE,Affordability / High DTI
+10158,67610.15,767,92.45,32.26,PAYE,LTV exceeds product maximum
+10159,98563.72,641,62.47,11.75,PAYE,Adverse credit history
+10160,52398.09,778,88.58,47.29,PAYE,Affordability / High DTI
+10161,69893.08,791,74.53,26.16,Self-Employed < 2yrs,Insufficient trading history
+10162,61956.35,783,80.98,49.67,PAYE,Affordability / High DTI
+10163,98028.25,597,65.15,31.16,PAYE,Adverse credit history
+10164,44677.31,803,81.37,51.27,PAYE,Affordability / High DTI
+10165,71638.58,748,84.85,51.91,PAYE,Affordability / High DTI
+10166,84353.78,624,75.79,16.82,PAYE,Adverse credit history
+10167,77480.84,582,73.72,14.84,PAYE,Adverse credit history
+10168,59702.12,766,84.62,45.14,PAYE,Affordability / High DTI
+10169,77108.82,690,74.91,22.16,Self-Employed < 2yrs,Insufficient trading history
+10170,103893.37,583,65.53,13.13,PAYE,Adverse credit history
+10171,61491.69,791,91.84,24.78,PAYE,LTV exceeds product maximum
+10172,66291.67,812,75.8,19.81,Self-Employed < 2yrs,Insufficient trading history
+10173,103398.11,582,57.34,21.23,PAYE,Adverse credit history
+10174,49374.63,723,89.1,50.37,PAYE,Affordability / High DTI
+10175,53731.96,790,82.76,48.26,PAYE,Affordability / High DTI
+10176,66858.06,807,84.32,29.43,Self-Employed < 2yrs,Insufficient trading history
+10177,54437.45,594,66.94,20.96,PAYE,Adverse credit history
+10178,72804.0,794,90.71,35.92,PAYE,LTV exceeds product maximum
+10179,76974.39,658,85.02,45.64,PAYE,Affordability / High DTI
+10180,64344.97,773,70.19,20.18,Self-Employed < 2yrs,Insufficient trading history
+10181,61815.18,728,72.65,30.14,Self-Employed < 2yrs,Insufficient trading history
+10182,58929.93,709,70.95,11.46,Self-Employed < 2yrs,Insufficient trading history
+10183,69872.8,593,59.81,21.25,PAYE,Adverse credit history
+10184,62100.65,793,82.02,51.61,PAYE,Affordability / High DTI
+10185,52625.85,703,93.06,34.53,PAYE,LTV exceeds product maximum
+10186,98845.58,787,70.44,24.57,Self-Employed < 2yrs,Insufficient trading history
+10187,46396.09,736,94.21,28.59,PAYE,LTV exceeds product maximum
+10188,59104.52,826,78.88,51.39,PAYE,Affordability / High DTI
+10189,73458.88,607,68.64,23.53,PAYE,Adverse credit history
+10190,59470.51,818,93.93,27.57,PAYE,LTV exceeds product maximum
+10191,60466.4,783,93.75,29.03,PAYE,LTV exceeds product maximum
+10192,105558.96,639,74.54,22.89,PAYE,Adverse credit history
+10193,85591.7,741,84.21,51.31,PAYE,Affordability / High DTI
+10194,71185.41,783,87.87,48.26,PAYE,Affordability / High DTI
+10195,93418.69,602,77.23,28.32,PAYE,Adverse credit history
+10196,53997.88,792,91.64,26.4,PAYE,LTV exceeds product maximum
+10197,94666.1,839,75.81,31.3,Self-Employed < 2yrs,Insufficient trading history
+10198,70505.2,592,55.98,24.93,PAYE,Adverse credit history
+10199,119073.66,835,69.31,18.9,Self-Employed < 2yrs,Insufficient trading history
+10200,77362.16,688,82.65,50.12,PAYE,Affordability / High DTI
+10201,67133.62,718,75.73,33.65,Self-Employed < 2yrs,Insufficient trading history
+10202,69330.54,643,87.65,52.03,PAYE,Affordability / High DTI
+10203,79021.44,785,66.6,20.68,Self-Employed < 2yrs,Insufficient trading history
+10204,91102.57,676,80.04,34.0,Self-Employed < 2yrs,Insufficient trading history
+10205,80782.44,786,75.41,30.11,Self-Employed < 2yrs,Insufficient trading history
+10206,56192.05,576,81.95,45.21,PAYE,Affordability / High DTI
+10207,75974.91,720,76.46,33.49,Self-Employed < 2yrs,Insufficient trading history
+10208,57633.05,785,93.04,35.35,PAYE,LTV exceeds product maximum
+10209,67197.45,674,86.32,51.17,PAYE,Affordability / High DTI
+10210,123737.57,559,80.93,13.57,PAYE,Adverse credit history
+10211,59834.0,763,84.05,52.67,PAYE,Affordability / High DTI
+10212,55498.08,722,92.35,25.74,PAYE,LTV exceeds product maximum
+10213,124241.44,620,96.19,27.69,PAYE,Adverse credit history
+10214,52165.8,792,91.59,19.06,PAYE,LTV exceeds product maximum
+10215,68323.99,756,77.27,19.29,Self-Employed < 2yrs,Insufficient trading history
+10216,53985.44,758,90.45,32.82,PAYE,LTV exceeds product maximum
+10217,84683.99,750,76.84,20.77,Self-Employed < 2yrs,Insufficient trading history
+10218,48649.71,609,83.19,50.16,PAYE,Affordability / High DTI
+10219,76424.88,743,92.67,32.66,PAYE,LTV exceeds product maximum
+10220,81954.34,759,77.75,23.49,Self-Employed < 2yrs,Insufficient trading history
+10221,79902.57,566,60.44,18.64,PAYE,Adverse credit history
+10222,70424.65,624,84.16,50.32,PAYE,Affordability / High DTI
+10223,63301.94,753,86.12,54.84,PAYE,Affordability / High DTI
+10224,64351.13,797,84.15,53.67,PAYE,Affordability / High DTI
+10225,48236.9,627,88.08,49.43,PAYE,Affordability / High DTI
+10226,68790.04,550,62.09,21.92,PAYE,Adverse credit history
+10227,68790.77,617,74.31,20.65,PAYE,Adverse credit history
+10228,63437.74,751,83.1,53.7,PAYE,Affordability / High DTI
+10229,71052.39,584,70.62,17.02,PAYE,Adverse credit history
+10230,65844.79,688,81.83,48.22,PAYE,Affordability / High DTI
+10231,51106.49,722,93.95,36.68,PAYE,LTV exceeds product maximum
+10232,63669.71,762,81.32,45.47,PAYE,Affordability / High DTI
+10233,64759.97,628,68.51,20.2,PAYE,Adverse credit history
+10234,63065.56,579,66.03,20.85,PAYE,Adverse credit history
+10235,77346.88,758,85.9,51.53,PAYE,Affordability / High DTI
+10236,80155.63,557,66.53,21.98,PAYE,Adverse credit history
+10237,53831.63,816,92.08,24.35,PAYE,LTV exceeds product maximum
+10238,63886.35,767,82.35,57.15,PAYE,Affordability / High DTI
+10239,110950.43,704,82.69,29.02,Self-Employed < 2yrs,Insufficient trading history
+10240,38773.1,830,73.6,29.88,Self-Employed < 2yrs,Insufficient trading history
+10241,66134.38,702,74.04,29.83,Self-Employed < 2yrs,Insufficient trading history
+10242,39366.7,630,76.94,29.66,Self-Employed < 2yrs,Insufficient trading history
+10243,62284.87,682,79.41,51.83,PAYE,Affordability / High DTI
+10244,103121.45,583,57.44,19.45,PAYE,Adverse credit history
+10245,74965.66,760,85.47,49.53,PAYE,Affordability / High DTI
+10246,75011.6,704,85.76,53.16,PAYE,Affordability / High DTI
+10247,53639.27,729,87.2,47.73,PAYE,Affordability / High DTI
+10248,36683.21,631,75.15,17.39,PAYE,Adverse credit history
+10249,59706.31,754,93.47,38.77,PAYE,LTV exceeds product maximum
+10250,100956.41,677,71.38,28.19,Self-Employed < 2yrs,Insufficient trading history
+10251,60479.1,717,86.49,48.15,PAYE,Affordability / High DTI
+10252,51392.87,810,92.66,23.74,PAYE,LTV exceeds product maximum
+10253,93234.22,626,69.63,18.08,PAYE,Adverse credit history
+10254,38554.32,610,60.74,21.72,PAYE,Adverse credit history
+10255,69181.03,739,92.13,28.31,PAYE,LTV exceeds product maximum
+10256,68116.55,784,87.58,50.79,PAYE,Affordability / High DTI
+10257,73630.53,750,88.29,47.41,PAYE,Affordability / High DTI
+10258,62261.42,728,75.57,19.31,Self-Employed < 2yrs,Insufficient trading history
+10259,73886.47,761,93.72,32.62,PAYE,LTV exceeds product maximum
+10260,40281.45,800,90.59,36.31,PAYE,LTV exceeds product maximum
+10261,78588.34,788,70.26,31.09,Self-Employed < 2yrs,Insufficient trading history
+10262,89725.31,895,65.01,26.0,Self-Employed < 2yrs,Insufficient trading history
+10263,56986.8,684,84.16,51.34,PAYE,Affordability / High DTI
+10264,95227.44,810,74.18,22.06,Self-Employed < 2yrs,Insufficient trading history
+10265,92160.2,530,69.6,23.5,PAYE,Adverse credit history
+10266,63787.16,801,93.04,38.9,PAYE,LTV exceeds product maximum
+10267,50063.58,697,83.08,47.43,PAYE,Affordability / High DTI
+10268,69445.45,777,93.53,30.08,PAYE,LTV exceeds product maximum
+10269,95938.3,620,71.58,13.34,PAYE,Adverse credit history
+10270,54308.18,804,93.45,25.01,PAYE,LTV exceeds product maximum
+10271,112615.19,611,61.3,18.93,PAYE,Adverse credit history
+10272,55695.9,803,93.48,30.33,PAYE,LTV exceeds product maximum
+10273,76073.05,600,66.03,24.0,PAYE,Adverse credit history
+10274,70150.84,608,91.3,47.58,PAYE,Affordability / High DTI
+10275,56106.84,736,90.86,26.05,PAYE,LTV exceeds product maximum
+10276,76904.7,761,71.83,32.17,Self-Employed < 2yrs,Insufficient trading history
+10277,71182.98,744,80.4,53.56,PAYE,Affordability / High DTI
+10278,78424.04,768,70.54,29.84,Self-Employed < 2yrs,Insufficient trading history
+10279,45264.74,756,93.22,23.55,PAYE,LTV exceeds product maximum
+10280,71030.85,684,74.16,33.3,Self-Employed < 2yrs,Insufficient trading history
+10281,48862.27,684,86.34,51.07,PAYE,Affordability / High DTI
+10282,55639.05,778,91.36,26.92,PAYE,LTV exceeds product maximum
+10283,82935.57,736,77.04,18.58,Self-Employed < 2yrs,Insufficient trading history
+10284,75939.43,860,81.39,51.14,PAYE,Affordability / High DTI
+10285,109171.2,569,75.16,13.3,PAYE,Adverse credit history
+10286,90823.82,606,56.07,19.78,PAYE,Adverse credit history
+10287,56184.18,745,84.86,51.25,PAYE,Affordability / High DTI
+10288,71671.66,776,84.72,52.39,PAYE,Affordability / High DTI
+10289,53612.96,771,93.03,25.32,PAYE,LTV exceeds product maximum
+10290,57601.72,703,89.21,42.0,PAYE,Affordability / High DTI
+10291,64488.12,784,93.66,30.55,PAYE,LTV exceeds product maximum
+10292,74130.13,700,81.39,47.92,PAYE,Affordability / High DTI
+10293,83370.15,696,74.46,26.0,Self-Employed < 2yrs,Insufficient trading history
+10294,47081.85,698,86.02,50.85,PAYE,Affordability / High DTI
+10295,59971.97,684,93.29,23.85,PAYE,LTV exceeds product maximum
+10296,70491.25,798,91.31,51.4,PAYE,Affordability / High DTI
+10297,77087.87,718,75.5,26.01,Self-Employed < 2yrs,Insufficient trading history
+10298,74606.93,835,85.64,47.99,PAYE,Affordability / High DTI
+10299,47425.45,820,80.54,24.5,Self-Employed < 2yrs,Insufficient trading history
+10300,54764.16,666,94.3,53.44,PAYE,Affordability / High DTI
+10301,74304.8,566,55.68,22.63,PAYE,Adverse credit history
+10302,70107.54,747,85.67,52.03,PAYE,Affordability / High DTI
+10303,73150.11,748,80.47,50.44,PAYE,Affordability / High DTI
+10304,60940.57,809,89.18,27.76,PAYE,LTV exceeds product maximum
+10305,81682.3,598,58.44,23.51,PAYE,Adverse credit history
+10306,52198.26,708,85.96,56.25,PAYE,Affordability / High DTI
+10307,55080.46,779,94.16,32.36,PAYE,LTV exceeds product maximum
+10308,62459.33,660,80.62,51.34,PAYE,Affordability / High DTI
+10309,58221.27,697,87.16,47.39,PAYE,Affordability / High DTI
+10310,93528.48,589,69.12,21.63,PAYE,Adverse credit history
+10311,55654.6,788,94.75,37.39,PAYE,LTV exceeds product maximum
+10312,83069.73,627,59.05,22.13,PAYE,Adverse credit history
+10313,51565.07,612,70.36,25.12,PAYE,Adverse credit history
+10314,46165.03,663,86.15,52.55,PAYE,Affordability / High DTI
+10315,89712.45,677,66.58,18.05,Self-Employed < 2yrs,Insufficient trading history
+10316,56587.41,619,72.98,25.22,Self-Employed < 2yrs,Insufficient trading history
+10317,71760.04,776,75.56,20.3,Self-Employed < 2yrs,Insufficient trading history
+10318,43185.56,746,92.57,25.51,PAYE,LTV exceeds product maximum
+10319,63634.22,565,74.4,16.17,PAYE,Adverse credit history
+10320,78223.25,748,76.0,23.94,Self-Employed < 2yrs,Insufficient trading history
+10321,101090.97,770,74.96,14.04,Self-Employed < 2yrs,Insufficient trading history
+10322,65199.95,701,85.29,49.29,PAYE,Affordability / High DTI
+10323,88840.69,715,77.65,17.07,Self-Employed < 2yrs,Insufficient trading history
+10324,63773.35,664,79.04,48.04,PAYE,Affordability / High DTI
+10325,99910.71,761,70.68,23.72,Self-Employed < 2yrs,Insufficient trading history
+10326,67720.35,722,85.86,49.15,PAYE,Affordability / High DTI
+10327,62427.32,807,86.41,48.5,PAYE,Affordability / High DTI
+10328,60700.18,648,83.19,48.13,PAYE,Affordability / High DTI
+10329,75258.31,607,65.87,20.47,PAYE,Adverse credit history
+10330,74824.63,770,89.69,27.39,PAYE,LTV exceeds product maximum
+10331,68016.82,691,74.48,27.08,Self-Employed < 2yrs,Insufficient trading history
+10332,64081.57,718,92.04,37.65,PAYE,LTV exceeds product maximum
+10333,87211.95,614,52.85,28.16,PAYE,Adverse credit history
+10334,56667.02,815,90.48,30.86,PAYE,LTV exceeds product maximum
+10335,79523.23,717,89.74,52.19,PAYE,Affordability / High DTI
+10336,73497.48,736,88.76,49.94,PAYE,Affordability / High DTI
+10337,69579.06,722,84.1,48.31,PAYE,Affordability / High DTI
+10338,85424.51,814,77.98,22.96,Self-Employed < 2yrs,Insufficient trading history
+10339,56939.68,710,82.81,47.88,PAYE,Affordability / High DTI
+10340,73466.8,782,84.03,28.11,Self-Employed < 2yrs,Insufficient trading history
+10341,71274.92,743,84.81,47.81,PAYE,Affordability / High DTI
+10342,55694.2,742,68.96,23.52,Self-Employed < 2yrs,Insufficient trading history
+10343,53325.08,763,74.15,22.99,Self-Employed < 2yrs,Insufficient trading history
+10344,52996.12,822,90.5,27.5,PAYE,LTV exceeds product maximum
+10345,74061.82,861,75.3,25.85,Self-Employed < 2yrs,Insufficient trading history
+10346,58671.55,756,92.84,31.61,PAYE,LTV exceeds product maximum
+10347,76750.21,584,73.03,15.64,PAYE,Adverse credit history
+10348,75377.12,793,82.7,25.31,Self-Employed < 2yrs,Insufficient trading history
+10349,70483.79,691,84.04,51.49,PAYE,Affordability / High DTI
+10350,51623.69,757,91.09,45.49,PAYE,Affordability / High DTI
+10351,65853.19,777,86.57,51.01,PAYE,Affordability / High DTI
+10352,65394.55,718,88.19,50.29,PAYE,Affordability / High DTI
+10353,76121.04,735,80.53,25.43,Self-Employed < 2yrs,Insufficient trading history
+10354,61550.0,693,84.03,48.88,PAYE,Affordability / High DTI
+10355,95487.23,626,66.13,21.01,PAYE,Adverse credit history
+10356,83988.49,749,76.83,24.64,Self-Employed < 2yrs,Insufficient trading history
+10357,51401.63,591,75.11,19.38,PAYE,Adverse credit history
+10358,82526.51,719,82.02,49.71,PAYE,Affordability / High DTI
+10359,93276.4,766,72.63,26.92,Self-Employed < 2yrs,Insufficient trading history
+10360,49961.99,784,90.43,30.4,PAYE,LTV exceeds product maximum
+10361,86587.59,592,76.24,25.94,PAYE,Adverse credit history
+10362,57971.32,719,72.86,15.49,Self-Employed < 2yrs,Insufficient trading history
+10363,90179.48,611,65.07,18.37,PAYE,Adverse credit history
+10364,64943.34,720,69.11,24.43,Self-Employed < 2yrs,Insufficient trading history
+10365,49643.92,838,62.88,28.26,Self-Employed < 2yrs,Insufficient trading history
+10366,67087.45,781,91.38,30.14,PAYE,LTV exceeds product maximum
+10367,53587.37,772,90.23,27.25,PAYE,LTV exceeds product maximum
+10368,57965.74,778,91.97,34.53,PAYE,LTV exceeds product maximum
+10369,73918.43,728,67.45,22.35,Self-Employed < 2yrs,Insufficient trading history
+10370,67653.93,730,93.45,41.72,PAYE,LTV exceeds product maximum
+10371,46914.48,711,94.27,21.55,PAYE,LTV exceeds product maximum
+10372,72280.94,702,77.78,22.59,Self-Employed < 2yrs,Insufficient trading history
+10373,67879.35,750,92.72,53.29,PAYE,Affordability / High DTI
+10374,90061.45,638,68.83,16.28,PAYE,Adverse credit history
+10375,68913.64,712,83.36,54.62,PAYE,Affordability / High DTI
+10376,125934.38,629,57.79,16.52,PAYE,Adverse credit history
+10377,86092.96,606,69.06,30.04,PAYE,Adverse credit history
+10378,65111.73,702,82.53,51.31,PAYE,Affordability / High DTI
+10379,79191.36,680,85.83,50.57,PAYE,Affordability / High DTI
+10380,51885.11,767,92.69,31.36,PAYE,LTV exceeds product maximum
+10381,65717.28,618,57.48,26.69,PAYE,Adverse credit history
+10382,75786.33,843,75.11,27.72,Self-Employed < 2yrs,Insufficient trading history
+10383,56620.32,799,93.77,21.45,PAYE,LTV exceeds product maximum
+10384,78431.58,735,86.24,49.43,PAYE,Affordability / High DTI
+10385,112939.71,573,67.19,16.69,PAYE,Adverse credit history
+10386,94960.27,629,62.0,22.97,PAYE,Adverse credit history
+10387,68932.9,579,68.39,25.51,PAYE,Adverse credit history
+10388,73831.25,736,88.59,47.1,PAYE,Affordability / High DTI
+10389,92792.02,617,75.91,16.4,PAYE,Adverse credit history
+10390,109946.08,617,62.18,19.65,PAYE,Adverse credit history
+10391,85911.38,749,80.49,22.65,Self-Employed < 2yrs,Insufficient trading history
+10392,34233.95,785,71.99,28.5,Self-Employed < 2yrs,Insufficient trading history
+10393,102805.33,589,59.79,22.68,PAYE,Adverse credit history
+10394,82408.43,669,80.73,15.9,Self-Employed < 2yrs,Insufficient trading history
+10395,70205.64,818,70.28,24.75,Self-Employed < 2yrs,Insufficient trading history
+10396,62951.19,792,82.76,48.05,PAYE,Affordability / High DTI
+10397,93563.15,829,71.85,29.61,Self-Employed < 2yrs,Insufficient trading history
+10398,67841.37,783,91.81,23.72,PAYE,LTV exceeds product maximum
+10399,59834.52,776,92.36,33.56,PAYE,LTV exceeds product maximum
+10400,92509.66,611,61.26,19.75,PAYE,Adverse credit history
+10401,63955.42,763,87.6,48.29,PAYE,Affordability / High DTI
+10402,57469.08,641,82.66,44.82,PAYE,Affordability / High DTI
+10403,49925.16,729,86.64,49.82,PAYE,Affordability / High DTI
+10404,61601.26,709,93.62,24.05,PAYE,LTV exceeds product maximum
+10405,39274.86,838,91.48,28.11,PAYE,LTV exceeds product maximum
+10406,105089.96,692,71.17,27.15,Self-Employed < 2yrs,Insufficient trading history
+10407,121565.53,601,70.49,21.33,PAYE,Adverse credit history
+10408,56968.09,710,90.11,26.27,PAYE,LTV exceeds product maximum
+10409,57760.03,839,92.69,37.99,PAYE,LTV exceeds product maximum
+10410,65984.08,769,90.98,29.49,PAYE,LTV exceeds product maximum
+10411,87445.12,593,62.17,16.22,PAYE,Adverse credit history
+10412,62843.99,806,91.18,37.98,PAYE,LTV exceeds product maximum
+10413,55609.18,755,87.03,50.76,PAYE,Affordability / High DTI
+10414,58295.2,709,81.1,51.85,PAYE,Affordability / High DTI
+10415,59550.13,659,85.28,45.64,PAYE,Affordability / High DTI
+10416,80444.57,614,80.83,26.74,PAYE,Adverse credit history
+10417,80411.2,795,77.07,23.45,Self-Employed < 2yrs,Insufficient trading history
+10418,86280.4,633,65.28,20.22,PAYE,Adverse credit history
+10419,59049.99,682,78.74,22.45,Self-Employed < 2yrs,Insufficient trading history
+10420,64069.22,767,91.64,28.04,PAYE,LTV exceeds product maximum
+10421,70913.35,609,72.84,26.61,PAYE,Adverse credit history
+10422,52515.98,580,65.92,25.84,PAYE,Adverse credit history
+10423,60567.72,675,88.23,46.06,PAYE,Affordability / High DTI
+10424,76316.98,843,92.62,30.82,PAYE,LTV exceeds product maximum
+10425,82203.79,680,83.52,50.67,PAYE,Affordability / High DTI
+10426,55985.93,718,83.37,53.41,PAYE,Affordability / High DTI
+10427,79133.98,622,76.75,21.51,PAYE,Adverse credit history
+10428,83145.55,583,56.34,21.87,PAYE,Adverse credit history
+10429,78853.62,706,82.8,51.7,PAYE,Affordability / High DTI
+10430,48815.31,748,91.76,32.96,PAYE,LTV exceeds product maximum
+10431,51642.23,746,74.25,30.23,Self-Employed < 2yrs,Insufficient trading history
+10432,56621.89,709,76.33,31.31,Self-Employed < 2yrs,Insufficient trading history
+10433,46186.52,773,92.94,27.16,PAYE,LTV exceeds product maximum
+10434,65552.92,651,76.22,36.89,Self-Employed < 2yrs,Insufficient trading history
+10435,66844.84,539,62.76,25.37,PAYE,Adverse credit history
+10436,99532.45,607,68.2,22.51,PAYE,Adverse credit history
+10437,68642.16,749,78.62,18.64,Self-Employed < 2yrs,Insufficient trading history
+10438,94143.41,612,72.96,21.96,PAYE,Adverse credit history
+10439,86961.26,757,85.47,53.48,PAYE,Affordability / High DTI
+10440,70370.57,742,91.45,40.1,PAYE,LTV exceeds product maximum
+10441,54816.56,841,89.9,31.72,PAYE,LTV exceeds product maximum
+10442,88389.69,631,71.84,26.75,PAYE,Adverse credit history
+10443,60577.62,866,92.16,24.89,PAYE,LTV exceeds product maximum
+10444,71586.23,746,83.65,15.35,Self-Employed < 2yrs,Insufficient trading history
+10445,47336.2,753,93.41,32.82,PAYE,LTV exceeds product maximum
+10446,65384.83,718,86.68,50.42,PAYE,Affordability / High DTI
+10447,68515.84,699,73.25,25.78,Self-Employed < 2yrs,Insufficient trading history
+10448,83317.63,709,80.4,38.19,Self-Employed < 2yrs,Insufficient trading history
+10449,80063.21,601,70.75,13.43,PAYE,Adverse credit history
+10450,62932.12,708,83.96,48.41,PAYE,Affordability / High DTI
+10451,102058.03,776,66.6,17.05,Self-Employed < 2yrs,Insufficient trading history
+10452,71145.04,585,72.81,19.87,PAYE,Adverse credit history
+10453,67635.46,777,77.61,28.85,Self-Employed < 2yrs,Insufficient trading history
+10454,112869.97,625,71.41,10.0,PAYE,Adverse credit history
+10455,65623.83,810,92.99,32.26,PAYE,LTV exceeds product maximum
+10456,49016.84,675,81.09,50.99,PAYE,Affordability / High DTI
+10457,68772.7,722,78.68,56.66,PAYE,Affordability / High DTI
+10458,64324.93,609,67.97,21.3,PAYE,Adverse credit history
+10459,62617.38,809,74.23,31.5,Self-Employed < 2yrs,Insufficient trading history
+10460,49254.47,746,86.2,51.56,PAYE,Affordability / High DTI
+10461,64423.68,746,91.85,28.29,PAYE,LTV exceeds product maximum
+10462,61460.73,638,83.15,56.25,PAYE,Affordability / High DTI
+10463,59058.83,771,91.48,29.05,PAYE,LTV exceeds product maximum
+10464,46825.67,730,83.59,54.24,PAYE,Affordability / High DTI
+10465,99465.55,711,75.5,21.72,Self-Employed < 2yrs,Insufficient trading history
+10466,101888.95,679,79.2,33.43,Self-Employed < 2yrs,Insufficient trading history
+10467,54418.52,743,90.36,37.96,PAYE,LTV exceeds product maximum
+10468,73797.8,786,72.3,29.0,Self-Employed < 2yrs,Insufficient trading history
+10469,61931.62,708,73.44,24.34,Self-Employed < 2yrs,Insufficient trading history
+10470,76650.85,713,71.21,31.55,Self-Employed < 2yrs,Insufficient trading history
+10471,94022.19,576,58.45,11.07,PAYE,Adverse credit history
+10472,70959.21,773,91.01,26.63,PAYE,LTV exceeds product maximum
+10473,63078.1,774,91.46,26.94,PAYE,LTV exceeds product maximum
+10474,59506.8,805,87.75,43.94,PAYE,Affordability / High DTI
+10475,57297.16,816,90.52,29.59,PAYE,LTV exceeds product maximum
+10476,55682.8,711,86.2,48.02,PAYE,Affordability / High DTI
+10477,46213.7,612,77.54,14.44,PAYE,Adverse credit history
+10478,68993.86,751,91.35,31.89,PAYE,LTV exceeds product maximum
+10479,72776.89,701,71.22,18.66,Self-Employed < 2yrs,Insufficient trading history
+10480,90983.63,632,58.31,17.34,PAYE,Adverse credit history
+10481,79467.81,738,87.87,52.21,PAYE,Affordability / High DTI
+10482,71324.86,600,84.24,51.63,PAYE,Affordability / High DTI
+10483,71328.93,723,81.58,20.35,Self-Employed < 2yrs,Insufficient trading history
+10484,98618.56,589,72.46,26.28,PAYE,Adverse credit history
+10485,49989.12,545,77.76,23.9,PAYE,Adverse credit history
+10486,82519.49,591,50.0,24.14,PAYE,Adverse credit history
+10487,51954.19,673,92.39,28.9,PAYE,LTV exceeds product maximum
+10488,44039.3,713,79.5,53.04,PAYE,Affordability / High DTI
+10489,59055.67,712,80.69,49.95,PAYE,Affordability / High DTI
+10490,63363.63,799,91.12,32.51,PAYE,LTV exceeds product maximum
+10491,82031.11,838,84.11,54.15,PAYE,Affordability / High DTI
+10492,50710.22,757,93.23,30.94,PAYE,LTV exceeds product maximum
+10493,78191.81,759,94.88,18.13,PAYE,LTV exceeds product maximum
+10494,47265.94,830,93.23,39.44,PAYE,LTV exceeds product maximum
+10495,68190.65,775,92.5,28.18,PAYE,LTV exceeds product maximum
+10496,67181.52,811,91.56,25.08,PAYE,LTV exceeds product maximum
+10497,79530.56,644,82.82,50.08,PAYE,Affordability / High DTI
+10498,97638.84,572,53.65,18.29,PAYE,Adverse credit history
+10499,80122.99,754,75.31,16.12,Self-Employed < 2yrs,Insufficient trading history
+10500,79917.72,767,80.69,34.48,Self-Employed < 2yrs,Insufficient trading history
+10501,93326.76,614,55.33,24.86,PAYE,Adverse credit history
+10502,57446.4,736,91.76,32.73,PAYE,LTV exceeds product maximum
+10503,59273.11,818,92.5,28.1,PAYE,LTV exceeds product maximum
+10504,66859.51,723,93.95,26.56,PAYE,LTV exceeds product maximum
+10505,58898.14,758,75.66,25.25,Self-Employed < 2yrs,Insufficient trading history
+10506,55068.1,650,82.47,51.6,PAYE,Affordability / High DTI
+10507,83998.31,580,58.92,18.51,PAYE,Adverse credit history
+10508,68510.94,789,77.02,25.01,Self-Employed < 2yrs,Insufficient trading history
+10509,58992.74,710,66.88,25.38,Self-Employed < 2yrs,Insufficient trading history
+10510,68318.84,750,90.42,20.45,PAYE,LTV exceeds product maximum
+10511,83084.51,758,86.81,51.13,PAYE,Affordability / High DTI
+10512,71343.58,740,83.9,53.25,PAYE,Affordability / High DTI
+10513,70513.99,639,69.51,29.2,Self-Employed < 2yrs,Insufficient trading history
+10514,69803.14,714,72.74,33.33,Self-Employed < 2yrs,Insufficient trading history
+10515,54325.15,681,87.91,50.99,PAYE,Affordability / High DTI
+10516,66635.52,745,88.67,53.56,PAYE,Affordability / High DTI
+10517,50302.11,717,89.67,30.79,PAYE,LTV exceeds product maximum
+10518,67813.54,712,90.03,25.98,PAYE,LTV exceeds product maximum
+10519,91405.38,575,70.23,22.85,PAYE,Adverse credit history
+10520,51004.07,666,74.65,21.38,Self-Employed < 2yrs,Insufficient trading history
+10521,40670.63,773,70.04,32.06,Self-Employed < 2yrs,Insufficient trading history
+10522,115093.0,584,57.25,13.98,PAYE,Adverse credit history
+10523,62906.27,633,88.47,21.31,PAYE,Adverse credit history
+10524,60206.61,695,92.44,27.42,PAYE,LTV exceeds product maximum
+10525,79396.51,743,76.48,30.8,Self-Employed < 2yrs,Insufficient trading history
+10526,68694.82,720,83.3,53.6,PAYE,Affordability / High DTI
+10527,104187.08,627,55.9,25.61,PAYE,Adverse credit history
+10528,95276.54,737,70.59,31.38,Self-Employed < 2yrs,Insufficient trading history
+10529,78768.03,567,62.4,23.5,PAYE,Adverse credit history
+10530,97733.4,633,70.06,17.29,PAYE,Adverse credit history
+10531,43465.42,771,87.35,50.23,PAYE,Affordability / High DTI
+10532,106402.04,600,65.47,29.44,PAYE,Adverse credit history
+10533,95252.92,595,68.45,19.74,PAYE,Adverse credit history
+10534,48345.83,750,84.78,52.16,PAYE,Affordability / High DTI
+10535,107063.6,590,62.58,23.29,PAYE,Adverse credit history
+10536,67445.66,791,94.13,27.7,PAYE,LTV exceeds product maximum
+10537,59010.07,701,79.37,26.9,Self-Employed < 2yrs,Insufficient trading history
+10538,63725.4,763,95.73,29.43,PAYE,LTV exceeds product maximum
+10539,78919.74,653,72.93,23.05,Self-Employed < 2yrs,Insufficient trading history
+10540,55648.01,755,70.93,21.97,Self-Employed < 2yrs,Insufficient trading history
+10541,113187.54,680,77.63,26.83,Self-Employed < 2yrs,Insufficient trading history
+10542,69928.67,714,86.71,51.18,PAYE,Affordability / High DTI
+10543,66149.72,681,85.9,48.16,PAYE,Affordability / High DTI
+10544,140088.14,592,62.99,15.07,PAYE,Adverse credit history
+10545,90620.21,610,84.08,16.59,PAYE,Adverse credit history
+10546,88188.53,746,75.34,15.89,Self-Employed < 2yrs,Insufficient trading history
+10547,50519.32,742,91.96,25.03,PAYE,LTV exceeds product maximum
+10548,87580.36,618,61.95,14.25,PAYE,Adverse credit history
+10549,53607.97,713,92.32,20.81,PAYE,LTV exceeds product maximum
+10550,71341.07,589,50.0,21.56,PAYE,Adverse credit history
+10551,96064.43,588,50.0,16.62,PAYE,Adverse credit history
+10552,72145.02,711,86.38,52.53,PAYE,Affordability / High DTI
+10553,58369.09,773,91.03,32.07,PAYE,LTV exceeds product maximum
+10554,55358.9,779,93.89,32.35,PAYE,LTV exceeds product maximum
+10555,61823.11,714,91.42,36.99,PAYE,LTV exceeds product maximum
+10556,65349.89,605,64.62,17.06,PAYE,Adverse credit history
+10557,53873.98,863,93.61,31.63,PAYE,LTV exceeds product maximum
+10558,75687.11,719,85.08,48.18,PAYE,Affordability / High DTI
+10559,65012.34,741,91.31,24.25,PAYE,LTV exceeds product maximum
+10560,59323.89,749,79.76,27.56,Self-Employed < 2yrs,Insufficient trading history
+10561,65543.78,690,84.69,52.01,PAYE,Affordability / High DTI
+10562,98882.66,564,62.3,17.25,PAYE,Adverse credit history
+10563,70329.7,806,75.24,15.52,Self-Employed < 2yrs,Insufficient trading history
+10564,49534.13,777,70.79,20.08,Self-Employed < 2yrs,Insufficient trading history
+10565,62358.26,760,78.41,25.13,Self-Employed < 2yrs,Insufficient trading history
+10566,58458.42,786,94.77,31.61,PAYE,LTV exceeds product maximum
+10567,73618.45,742,89.66,52.75,PAYE,Affordability / High DTI
+10568,71905.24,686,81.72,47.07,PAYE,Affordability / High DTI
+10569,82694.8,875,77.62,16.46,Self-Employed < 2yrs,Insufficient trading history
+10570,68162.48,641,81.02,15.73,Self-Employed < 2yrs,Insufficient trading history
+10571,62140.36,846,88.75,31.19,PAYE,LTV exceeds product maximum
+10572,62940.56,752,84.95,50.52,PAYE,Affordability / High DTI
+10573,77966.94,710,85.29,49.97,PAYE,Affordability / High DTI
+10574,68728.95,772,87.59,48.27,PAYE,Affordability / High DTI
+10575,56179.93,840,91.11,31.87,PAYE,LTV exceeds product maximum
+10576,49890.35,751,90.18,27.16,PAYE,LTV exceeds product maximum
+10577,65431.25,765,90.96,25.73,PAYE,LTV exceeds product maximum
+10578,58517.17,747,91.93,21.08,PAYE,LTV exceeds product maximum
+10579,78912.14,810,89.12,48.5,PAYE,Affordability / High DTI
+10580,38489.41,835,78.41,24.02,Self-Employed < 2yrs,Insufficient trading history
+10581,67924.93,667,91.57,22.44,PAYE,LTV exceeds product maximum
+10582,107967.86,606,74.82,18.49,PAYE,Adverse credit history
+10583,74445.44,556,54.03,10.94,PAYE,Adverse credit history
+10584,51314.08,567,61.33,20.39,PAYE,Adverse credit history
+10585,64324.62,760,89.93,27.43,PAYE,LTV exceeds product maximum
+10586,56031.14,807,93.67,33.39,PAYE,LTV exceeds product maximum
+10587,70913.77,611,83.56,49.77,PAYE,Affordability / High DTI
+10588,70384.94,737,76.33,27.0,Self-Employed < 2yrs,Insufficient trading history
+10589,55896.6,565,68.27,24.32,PAYE,Adverse credit history
+10590,85024.5,771,74.93,24.75,Self-Employed < 2yrs,Insufficient trading history
+10591,84209.05,744,77.16,22.52,Self-Employed < 2yrs,Insufficient trading history
+10592,67807.13,756,86.93,50.03,PAYE,Affordability / High DTI
+10593,62769.54,699,90.9,15.47,PAYE,LTV exceeds product maximum
+10594,45044.21,818,95.95,24.58,PAYE,LTV exceeds product maximum
+10595,108804.71,612,61.91,10.09,PAYE,Adverse credit history
+10596,74204.8,755,79.25,24.7,Self-Employed < 2yrs,Insufficient trading history
+10597,102624.98,590,71.37,10.0,PAYE,Adverse credit history
+10598,64700.51,647,85.41,50.88,PAYE,Affordability / High DTI
+10599,66809.26,760,92.32,29.53,PAYE,LTV exceeds product maximum
+10600,101977.0,581,70.27,28.09,PAYE,Adverse credit history
+10601,75548.42,601,56.09,15.4,PAYE,Adverse credit history
+10602,56324.63,735,79.02,20.83,Self-Employed < 2yrs,Insufficient trading history
+10603,63417.6,750,90.92,31.83,PAYE,LTV exceeds product maximum
+10604,63046.69,729,91.77,30.75,PAYE,LTV exceeds product maximum
+10605,72363.87,708,61.96,21.36,Self-Employed < 2yrs,Insufficient trading history
+10606,74835.68,647,77.09,24.41,PAYE,Adverse credit history
+10607,71243.74,638,87.9,51.68,PAYE,Affordability / High DTI
+10608,97828.77,563,75.83,17.69,PAYE,Adverse credit history
+10609,66020.48,826,88.47,39.07,PAYE,LTV exceeds product maximum
+10610,79028.22,595,62.68,18.53,PAYE,Adverse credit history
+10611,61537.98,759,87.83,57.13,PAYE,Affordability / High DTI
+10612,68512.91,695,88.18,49.02,PAYE,Affordability / High DTI
+10613,74345.66,594,66.83,17.07,PAYE,Adverse credit history
+10614,66901.35,765,83.49,51.05,PAYE,Affordability / High DTI
+10615,79376.64,687,77.73,27.9,Self-Employed < 2yrs,Insufficient trading history
+10616,76828.32,595,63.85,20.25,PAYE,Adverse credit history
+10617,68938.2,787,77.38,21.48,Self-Employed < 2yrs,Insufficient trading history
+10618,133307.1,609,67.71,22.62,PAYE,Adverse credit history
+10619,57086.08,727,77.63,23.42,Self-Employed < 2yrs,Insufficient trading history
+10620,93911.79,578,62.37,18.61,PAYE,Adverse credit history
+10621,47322.4,742,88.86,35.32,PAYE,LTV exceeds product maximum
+10622,73689.94,720,78.29,26.81,Self-Employed < 2yrs,Insufficient trading history
+10623,57328.76,763,93.03,33.89,PAYE,LTV exceeds product maximum
+10624,63716.23,781,94.46,34.24,PAYE,LTV exceeds product maximum
+10625,65940.49,734,80.84,49.44,PAYE,Affordability / High DTI
+10626,67424.01,735,72.23,24.21,Self-Employed < 2yrs,Insufficient trading history
+10627,41090.39,580,70.07,25.09,PAYE,Adverse credit history
+10628,82930.81,587,61.56,15.97,PAYE,Adverse credit history
+10629,52446.65,715,86.06,44.93,PAYE,Affordability / High DTI
+10630,39537.46,858,93.51,32.37,PAYE,LTV exceeds product maximum
+10631,78318.29,613,59.65,26.85,PAYE,Adverse credit history
+10632,87154.97,585,64.73,20.45,PAYE,Adverse credit history
+10633,88953.53,811,78.12,27.02,Self-Employed < 2yrs,Insufficient trading history
+10634,87556.96,711,72.25,25.93,Self-Employed < 2yrs,Insufficient trading history
+10635,101354.97,717,76.56,26.52,Self-Employed < 2yrs,Insufficient trading history
+10636,70818.72,750,92.09,33.01,PAYE,LTV exceeds product maximum
+10637,124194.38,580,74.48,23.99,PAYE,Adverse credit history
+10638,87035.18,639,65.82,27.81,PAYE,Adverse credit history
+10639,95255.52,616,67.31,22.23,PAYE,Adverse credit history
+10640,68074.96,630,83.17,51.6,PAYE,Affordability / High DTI
+10641,49307.56,616,82.13,50.89,PAYE,Affordability / High DTI
+10642,76586.4,560,56.8,16.92,PAYE,Adverse credit history
+10643,74883.23,747,75.73,29.8,Self-Employed < 2yrs,Insufficient trading history
+10644,73941.82,773,80.0,19.86,Self-Employed < 2yrs,Insufficient trading history
+10645,75861.5,584,67.6,18.37,PAYE,Adverse credit history
+10646,63814.6,684,84.35,50.53,PAYE,Affordability / High DTI
+10647,49063.51,705,81.11,49.62,PAYE,Affordability / High DTI
+10648,96217.68,610,61.74,23.13,PAYE,Adverse credit history
+10649,48470.19,796,91.4,21.13,PAYE,LTV exceeds product maximum
+10650,48060.64,816,83.43,21.68,Self-Employed < 2yrs,Insufficient trading history
+10651,68846.6,566,62.11,21.42,PAYE,Adverse credit history
+10652,59341.97,721,80.57,21.62,Self-Employed < 2yrs,Insufficient trading history
+10653,77662.69,684,87.45,43.09,PAYE,Affordability / High DTI
+10654,69863.55,690,81.02,48.37,PAYE,Affordability / High DTI
+10655,82272.43,742,80.37,32.91,Self-Employed < 2yrs,Insufficient trading history
+10656,47713.45,798,91.89,30.4,PAYE,LTV exceeds product maximum
+10657,57781.99,819,91.08,35.45,PAYE,LTV exceeds product maximum
+10658,49849.55,770,73.26,24.69,Self-Employed < 2yrs,Insufficient trading history
+10659,90537.18,628,59.82,24.87,PAYE,Adverse credit history
+10660,88539.78,590,59.16,14.38,PAYE,Adverse credit history
+10661,53025.19,595,84.3,53.86,PAYE,Affordability / High DTI
+10662,104931.82,636,61.0,15.92,PAYE,Adverse credit history
+10663,62404.47,859,93.5,26.29,PAYE,LTV exceeds product maximum
+10664,50486.41,696,86.17,49.99,PAYE,Affordability / High DTI
+10665,48826.19,784,81.73,50.9,PAYE,Affordability / High DTI
+10666,57514.84,740,93.5,31.97,PAYE,LTV exceeds product maximum
+10667,56136.37,795,93.18,29.02,PAYE,LTV exceeds product maximum
+10668,73564.69,654,82.95,48.0,PAYE,Affordability / High DTI
+10669,67632.39,800,91.27,29.04,PAYE,LTV exceeds product maximum
+10670,51152.43,794,90.69,25.08,PAYE,LTV exceeds product maximum
+10671,59778.87,763,94.08,22.4,PAYE,LTV exceeds product maximum
+10672,57892.66,754,90.17,38.29,PAYE,LTV exceeds product maximum
+10673,49886.72,767,90.79,29.21,PAYE,LTV exceeds product maximum
+10674,53087.47,737,93.44,31.51,PAYE,LTV exceeds product maximum
+10675,80146.6,788,70.76,26.75,Self-Employed < 2yrs,Insufficient trading history
+10676,62037.31,770,84.42,55.49,PAYE,Affordability / High DTI
+10677,70693.93,568,87.54,51.24,PAYE,Affordability / High DTI
+10678,64402.63,710,72.12,26.0,Self-Employed < 2yrs,Insufficient trading history
+10679,95713.96,643,74.34,17.22,PAYE,Adverse credit history
+10680,97495.46,714,73.64,18.15,Self-Employed < 2yrs,Insufficient trading history
+10681,59779.58,787,85.56,55.31,PAYE,Affordability / High DTI
+10682,97888.02,605,57.03,24.61,PAYE,Adverse credit history
+10683,69606.31,578,64.72,13.43,PAYE,Adverse credit history
+10684,63104.79,632,80.15,19.52,PAYE,Adverse credit history
+10685,69375.48,708,92.53,27.89,PAYE,LTV exceeds product maximum
+10686,55404.35,735,72.0,20.08,Self-Employed < 2yrs,Insufficient trading history
+10687,77073.52,798,77.82,26.99,Self-Employed < 2yrs,Insufficient trading history
+10688,76496.39,733,80.92,29.7,Self-Employed < 2yrs,Insufficient trading history
+10689,86748.54,631,78.54,16.73,PAYE,Adverse credit history
+10690,64382.39,722,91.65,32.31,PAYE,LTV exceeds product maximum
+10691,61463.85,784,90.55,32.05,PAYE,LTV exceeds product maximum
+10692,48377.6,666,66.14,27.6,PAYE,Adverse credit history
+10693,104422.55,588,67.15,16.51,PAYE,Adverse credit history
+10694,76972.17,788,68.74,26.36,Self-Employed < 2yrs,Insufficient trading history
+10695,59742.95,802,93.94,30.91,PAYE,LTV exceeds product maximum
+10696,61308.95,760,81.25,26.85,Self-Employed < 2yrs,Insufficient trading history
+10697,68942.69,724,67.64,32.71,Self-Employed < 2yrs,Insufficient trading history
+10698,65216.27,772,91.63,34.06,PAYE,LTV exceeds product maximum
+10699,68500.66,763,95.01,41.95,PAYE,LTV exceeds product maximum
+10700,73835.27,768,79.94,48.95,PAYE,Affordability / High DTI
+10701,71120.04,677,83.6,48.37,PAYE,Affordability / High DTI
+10702,97202.64,768,70.32,28.96,Self-Employed < 2yrs,Insufficient trading history
+10703,52223.27,746,84.49,51.35,PAYE,Affordability / High DTI
+10704,57683.09,745,86.05,46.86,PAYE,Affordability / High DTI
+10705,110422.44,571,56.35,22.11,PAYE,Adverse credit history
+10706,59073.75,678,95.58,30.19,PAYE,LTV exceeds product maximum
+10707,66775.17,682,85.95,42.8,PAYE,Affordability / High DTI
+10708,53579.66,829,75.98,20.16,Self-Employed < 2yrs,Insufficient trading history
+10709,93974.87,719,74.96,28.76,Self-Employed < 2yrs,Insufficient trading history
+10710,120285.71,641,61.02,27.63,PAYE,Adverse credit history
+10711,59577.64,788,89.81,23.3,PAYE,LTV exceeds product maximum
+10712,56535.08,741,92.3,31.98,PAYE,LTV exceeds product maximum
+10713,68917.11,813,91.41,26.89,PAYE,LTV exceeds product maximum
+10714,90218.4,743,88.01,50.53,PAYE,Affordability / High DTI
+10715,50678.42,658,70.31,12.96,PAYE,Adverse credit history
+10716,56971.8,702,81.88,45.57,PAYE,Affordability / High DTI
+10717,47419.2,768,75.38,31.73,Self-Employed < 2yrs,Insufficient trading history
+10718,60874.4,750,91.99,24.72,PAYE,LTV exceeds product maximum
+10719,119850.4,627,64.09,16.39,PAYE,Adverse credit history
+10720,56982.64,799,90.7,39.84,PAYE,LTV exceeds product maximum
+10721,80620.99,648,83.37,49.46,PAYE,Affordability / High DTI
+10722,76864.93,781,74.18,18.2,Self-Employed < 2yrs,Insufficient trading history
+10723,81053.39,716,70.38,26.08,Self-Employed < 2yrs,Insufficient trading history
+10724,101901.81,637,67.21,19.52,PAYE,Adverse credit history
+10725,69877.83,787,83.86,50.2,PAYE,Affordability / High DTI
+10726,71336.76,670,88.37,52.06,PAYE,Affordability / High DTI
+10727,78632.74,799,90.03,28.57,PAYE,LTV exceeds product maximum
+10728,71641.9,615,72.68,20.76,PAYE,Adverse credit history
+10729,59739.92,706,76.0,27.24,Self-Employed < 2yrs,Insufficient trading history
+10730,71081.08,681,84.57,49.36,PAYE,Affordability / High DTI
+10731,54389.28,767,90.78,36.49,PAYE,LTV exceeds product maximum
+10732,81447.95,578,65.49,29.37,PAYE,Adverse credit history
+10733,82529.79,635,71.83,23.24,PAYE,Adverse credit history
+10734,71575.32,592,84.35,43.78,PAYE,Affordability / High DTI
+10735,82341.49,808,83.4,51.92,PAYE,Affordability / High DTI
+10736,60410.06,772,92.04,33.37,PAYE,LTV exceeds product maximum
+10737,68817.17,732,73.58,27.1,Self-Employed < 2yrs,Insufficient trading history
+10738,80735.71,610,71.56,17.39,PAYE,Adverse credit history
+10739,49881.4,750,85.25,49.64,PAYE,Affordability / High DTI
+10740,55458.46,691,79.21,47.55,PAYE,Affordability / High DTI
+10741,57485.52,805,91.4,29.9,PAYE,LTV exceeds product maximum
+10742,95189.4,762,70.05,25.19,Self-Employed < 2yrs,Insufficient trading history
+10743,88616.94,799,81.35,21.8,Self-Employed < 2yrs,Insufficient trading history
+10744,66219.35,596,68.64,22.03,PAYE,Adverse credit history
+10745,83498.9,717,88.24,50.96,PAYE,Affordability / High DTI
+10746,61084.5,761,92.48,19.73,PAYE,LTV exceeds product maximum
+10747,57951.61,814,94.15,32.71,PAYE,LTV exceeds product maximum
+10748,70588.69,657,61.31,25.4,PAYE,Adverse credit history
+10749,62798.25,701,91.33,31.56,PAYE,LTV exceeds product maximum
+10750,54866.77,657,73.85,25.56,Self-Employed < 2yrs,Insufficient trading history
+10751,63229.91,723,92.34,24.38,PAYE,LTV exceeds product maximum
+10752,64122.12,730,92.94,33.15,PAYE,LTV exceeds product maximum
+10753,67608.42,676,68.87,27.77,Self-Employed < 2yrs,Insufficient trading history
+10754,95957.27,756,76.35,18.23,Self-Employed < 2yrs,Insufficient trading history
+10755,49106.36,786,89.29,28.31,PAYE,LTV exceeds product maximum
+10756,81100.75,826,70.73,32.88,Self-Employed < 2yrs,Insufficient trading history
+10757,64457.44,778,88.16,30.09,PAYE,LTV exceeds product maximum
+10758,134938.46,621,66.74,17.62,PAYE,Adverse credit history
+10759,45930.71,704,85.61,51.88,PAYE,Affordability / High DTI
+10760,68915.25,884,71.73,26.26,Self-Employed < 2yrs,Insufficient trading history
+10761,61228.57,733,90.83,21.23,PAYE,LTV exceeds product maximum
+10762,57064.58,740,93.4,34.35,PAYE,LTV exceeds product maximum
+10763,71738.69,798,76.98,25.16,Self-Employed < 2yrs,Insufficient trading history
+10764,66862.62,789,76.16,21.24,Self-Employed < 2yrs,Insufficient trading history
+10765,86453.02,752,73.06,19.38,Self-Employed < 2yrs,Insufficient trading history
+10766,77029.35,602,72.69,22.88,PAYE,Adverse credit history
+10767,96059.31,575,74.56,15.69,PAYE,Adverse credit history
+10768,52264.77,653,82.56,56.37,PAYE,Affordability / High DTI
+10769,76041.95,582,74.3,11.87,PAYE,Adverse credit history
+10770,109271.91,586,65.08,25.36,PAYE,Adverse credit history
+10771,64779.25,765,83.93,53.44,PAYE,Affordability / High DTI
+10772,60213.02,802,92.97,19.2,PAYE,LTV exceeds product maximum
+10773,71553.94,662,86.46,51.97,PAYE,Affordability / High DTI
+10774,47516.43,708,78.09,54.65,PAYE,Affordability / High DTI
+10775,59510.61,636,81.02,49.32,PAYE,Affordability / High DTI
+10776,63144.13,808,90.07,33.38,PAYE,LTV exceeds product maximum
+10777,52766.0,812,70.59,25.97,Self-Employed < 2yrs,Insufficient trading history
+10778,87495.47,727,72.91,14.46,Self-Employed < 2yrs,Insufficient trading history
+10779,86987.01,612,72.94,16.17,PAYE,Adverse credit history
+10780,80699.97,787,74.18,22.57,Self-Employed < 2yrs,Insufficient trading history
+10781,102738.06,682,75.39,29.8,Self-Employed < 2yrs,Insufficient trading history
+10782,78893.36,747,87.68,45.41,PAYE,Affordability / High DTI
+10783,66272.17,661,79.32,54.58,PAYE,Affordability / High DTI
+10784,89375.38,715,70.01,29.73,Self-Employed < 2yrs,Insufficient trading history
+10785,68974.03,763,85.52,49.37,PAYE,Affordability / High DTI
+10786,63681.12,830,91.65,30.97,PAYE,LTV exceeds product maximum
+10787,56195.44,802,92.49,32.46,PAYE,LTV exceeds product maximum
+10788,70116.03,758,78.82,25.11,Self-Employed < 2yrs,Insufficient trading history
+10789,70342.18,752,92.1,32.22,PAYE,LTV exceeds product maximum
+10790,56159.18,742,90.95,32.38,PAYE,LTV exceeds product maximum
+10791,100786.09,549,59.45,17.91,PAYE,Adverse credit history
+10792,95844.28,719,71.07,22.28,Self-Employed < 2yrs,Insufficient trading history
+10793,76694.44,824,68.71,25.24,Self-Employed < 2yrs,Insufficient trading history
+10794,104524.31,700,76.72,19.42,Self-Employed < 2yrs,Insufficient trading history
+10795,58638.07,783,91.7,35.14,PAYE,LTV exceeds product maximum
+10796,52417.97,751,91.49,19.1,PAYE,LTV exceeds product maximum
+10797,63579.97,581,63.66,11.73,PAYE,Adverse credit history
+10798,56540.77,692,86.41,50.11,PAYE,Affordability / High DTI
+10799,115455.43,631,72.01,18.73,PAYE,Adverse credit history
+10800,101954.24,609,60.9,18.07,PAYE,Adverse credit history
+10801,125757.67,584,62.85,14.57,PAYE,Adverse credit history
+10802,73037.52,725,73.29,31.18,Self-Employed < 2yrs,Insufficient trading history
+10803,68098.6,744,92.89,30.94,PAYE,LTV exceeds product maximum
+10804,82243.12,709,73.04,24.62,Self-Employed < 2yrs,Insufficient trading history
+10805,99519.15,607,56.57,22.17,PAYE,Adverse credit history
+10806,101179.96,622,69.27,17.42,PAYE,Adverse credit history
+10807,71000.54,721,90.89,53.6,PAYE,Affordability / High DTI
+10808,65940.51,850,76.24,27.26,Self-Employed < 2yrs,Insufficient trading history
+10809,55909.0,813,91.78,24.46,PAYE,LTV exceeds product maximum
+10810,55964.58,732,88.47,29.91,PAYE,LTV exceeds product maximum
+10811,52151.72,835,88.75,30.68,PAYE,LTV exceeds product maximum
+10812,78605.53,729,82.55,24.83,Self-Employed < 2yrs,Insufficient trading history
+10813,68020.88,700,74.17,19.96,Self-Employed < 2yrs,Insufficient trading history
+10814,52966.19,750,78.69,46.84,PAYE,Affordability / High DTI
+10815,76671.86,586,68.19,14.94,PAYE,Adverse credit history
+10816,94822.24,586,67.06,21.44,PAYE,Adverse credit history
+10817,68433.19,755,75.55,31.92,Self-Employed < 2yrs,Insufficient trading history
+10818,67234.19,702,80.12,43.74,PAYE,Affordability / High DTI
+10819,54373.22,722,85.45,51.21,PAYE,Affordability / High DTI
+10820,110683.5,606,72.97,10.1,PAYE,Adverse credit history
+10821,59763.57,622,57.16,23.29,PAYE,Adverse credit history
+10822,73712.5,738,90.72,34.7,PAYE,LTV exceeds product maximum
+10823,72765.5,752,93.63,42.99,PAYE,LTV exceeds product maximum
+10824,51239.54,769,90.82,28.99,PAYE,LTV exceeds product maximum
+10825,78057.96,761,73.3,32.28,Self-Employed < 2yrs,Insufficient trading history
+10826,65308.17,746,92.45,26.6,PAYE,LTV exceeds product maximum
+10827,65015.12,796,93.42,29.63,PAYE,LTV exceeds product maximum
+10828,76472.39,721,72.08,23.07,Self-Employed < 2yrs,Insufficient trading history
+10829,108316.42,622,63.66,19.84,PAYE,Adverse credit history
+10830,72821.26,701,83.04,48.21,PAYE,Affordability / High DTI
+10831,88568.99,632,57.66,10.0,PAYE,Adverse credit history
+10832,64223.5,669,82.39,51.24,PAYE,Affordability / High DTI
+10833,67564.27,717,91.94,47.33,PAYE,Affordability / High DTI
+10834,62886.25,654,85.43,46.97,PAYE,Affordability / High DTI
+10835,100749.8,848,69.2,26.61,Self-Employed < 2yrs,Insufficient trading history
+10836,54374.37,734,75.07,27.66,Self-Employed < 2yrs,Insufficient trading history
+10837,71942.38,852,93.28,37.5,PAYE,LTV exceeds product maximum
+10838,91610.1,606,61.95,21.83,PAYE,Adverse credit history
+10839,69313.2,761,86.01,45.62,PAYE,Affordability / High DTI
+10840,58018.66,768,94.25,30.22,PAYE,LTV exceeds product maximum
+10841,99157.73,759,73.7,33.03,Self-Employed < 2yrs,Insufficient trading history
+10842,96014.29,607,79.31,11.97,PAYE,Adverse credit history
+10843,63581.48,843,90.39,35.02,PAYE,LTV exceeds product maximum
+10844,85959.11,580,66.78,24.63,PAYE,Adverse credit history
+10845,49403.42,722,89.52,46.83,PAYE,Affordability / High DTI
+10846,96268.63,576,67.35,14.33,PAYE,Adverse credit history
+10847,103388.96,808,76.68,22.14,Self-Employed < 2yrs,Insufficient trading history
+10848,83073.75,606,61.67,27.77,PAYE,Adverse credit history
+10849,71168.47,742,75.42,30.28,Self-Employed < 2yrs,Insufficient trading history
+10850,49881.36,723,94.16,27.23,PAYE,LTV exceeds product maximum
+10851,72418.49,822,92.29,29.16,PAYE,LTV exceeds product maximum
+10852,114005.37,577,63.66,21.62,PAYE,Adverse credit history
+10853,89322.53,642,70.56,26.46,PAYE,Adverse credit history
+10854,59691.39,805,91.81,28.12,PAYE,LTV exceeds product maximum
+10855,73395.22,718,75.5,16.68,Self-Employed < 2yrs,Insufficient trading history
+10856,84968.5,756,78.41,31.9,Self-Employed < 2yrs,Insufficient trading history
+10857,55028.16,760,91.63,38.53,PAYE,LTV exceeds product maximum
+10858,57727.69,797,91.88,34.68,PAYE,LTV exceeds product maximum
+10859,86624.54,604,58.0,19.37,PAYE,Adverse credit history
+10860,72092.79,695,89.52,46.93,PAYE,Affordability / High DTI
+10861,77118.29,794,73.9,22.75,Self-Employed < 2yrs,Insufficient trading history
+10862,103989.85,686,84.18,19.58,Self-Employed < 2yrs,Insufficient trading history
+10863,107605.9,592,69.31,20.0,PAYE,Adverse credit history
+10864,79559.22,607,70.99,22.07,PAYE,Adverse credit history
+10865,91538.15,584,59.46,29.01,PAYE,Adverse credit history
+10866,62485.67,824,77.95,18.36,Self-Employed < 2yrs,Insufficient trading history
+10867,85059.8,660,78.61,34.97,Self-Employed < 2yrs,Insufficient trading history
+10868,87731.75,601,67.95,16.23,PAYE,Adverse credit history
+10869,53113.33,667,88.07,46.16,PAYE,Affordability / High DTI
+10870,48467.26,734,87.57,44.01,PAYE,Affordability / High DTI
+10871,51983.15,654,92.32,52.26,PAYE,Affordability / High DTI
+10872,68196.98,674,67.53,26.81,Self-Employed < 2yrs,Insufficient trading history
+10873,71915.72,779,81.61,21.58,Self-Employed < 2yrs,Insufficient trading history
+10874,59648.24,726,80.9,50.92,PAYE,Affordability / High DTI
+10875,91334.33,612,66.34,21.8,PAYE,Adverse credit history
+10876,59940.42,776,91.57,39.84,PAYE,LTV exceeds product maximum
+10877,58969.44,697,92.28,16.04,PAYE,LTV exceeds product maximum
+10878,84344.47,623,76.41,17.7,PAYE,Adverse credit history
+10879,70502.25,733,91.89,31.75,PAYE,LTV exceeds product maximum
+10880,79518.88,764,77.8,26.18,Self-Employed < 2yrs,Insufficient trading history
+10881,59844.01,768,87.09,48.03,PAYE,Affordability / High DTI
+10882,143462.45,573,50.0,18.59,PAYE,Adverse credit history
+10883,110003.92,578,50.37,16.79,PAYE,Adverse credit history
+10884,93080.45,582,62.45,12.47,PAYE,Adverse credit history
+10885,79538.44,584,55.03,19.99,PAYE,Adverse credit history
+10886,67762.19,639,86.05,52.11,PAYE,Affordability / High DTI
+10887,76047.27,838,92.72,27.75,PAYE,LTV exceeds product maximum
+10888,65658.05,633,88.78,51.59,PAYE,Affordability / High DTI
+10889,70032.43,840,74.0,22.18,Self-Employed < 2yrs,Insufficient trading history
+10890,55345.01,736,94.5,25.56,PAYE,LTV exceeds product maximum
+10891,83363.11,743,72.47,23.48,Self-Employed < 2yrs,Insufficient trading history
+10892,75907.97,753,91.32,30.45,PAYE,LTV exceeds product maximum
+10893,64974.92,722,92.4,32.51,PAYE,LTV exceeds product maximum
+10894,68215.67,589,65.24,10.0,PAYE,Adverse credit history
+10895,72028.69,719,73.69,22.75,Self-Employed < 2yrs,Insufficient trading history
+10896,73009.39,807,91.37,26.68,PAYE,LTV exceeds product maximum
+10897,68151.16,693,81.87,55.05,PAYE,Affordability / High DTI
+10898,76172.72,780,85.72,53.54,PAYE,Affordability / High DTI
+10899,73014.84,743,91.72,30.37,PAYE,LTV exceeds product maximum
+10900,66466.19,781,75.24,25.41,Self-Employed < 2yrs,Insufficient trading history
+10901,49226.07,832,90.56,26.46,PAYE,LTV exceeds product maximum
+10902,73033.88,624,57.87,24.13,PAYE,Adverse credit history
+10903,56293.33,762,87.4,33.91,PAYE,LTV exceeds product maximum
+10904,75133.15,800,85.3,50.81,PAYE,Affordability / High DTI
+10905,110147.84,574,57.86,14.1,PAYE,Adverse credit history
+10906,85400.03,617,76.24,20.68,PAYE,Adverse credit history
+10907,76953.88,762,70.84,18.86,Self-Employed < 2yrs,Insufficient trading history
+10908,55093.49,758,88.21,35.79,PAYE,LTV exceeds product maximum
+10909,76775.4,603,75.26,15.27,PAYE,Adverse credit history
+10910,87004.02,672,72.73,28.39,Self-Employed < 2yrs,Insufficient trading history
+10911,64117.42,649,88.48,51.3,PAYE,Affordability / High DTI
+10912,77858.92,781,72.32,31.06,Self-Employed < 2yrs,Insufficient trading history
+10913,58739.04,785,89.95,21.66,PAYE,LTV exceeds product maximum
+10914,64964.71,755,82.86,51.13,PAYE,Affordability / High DTI
+10915,96944.98,601,66.83,23.92,PAYE,Adverse credit history
+10916,63276.02,733,89.58,49.92,PAYE,Affordability / High DTI
+10917,74332.19,765,74.24,31.6,Self-Employed < 2yrs,Insufficient trading history
+10918,58242.58,769,90.78,25.74,PAYE,LTV exceeds product maximum
+10919,65019.22,852,93.6,36.73,PAYE,LTV exceeds product maximum
+10920,63589.48,721,85.4,50.79,PAYE,Affordability / High DTI
+10921,93352.86,780,77.63,24.64,Self-Employed < 2yrs,Insufficient trading history
+10922,67840.69,590,74.83,21.15,PAYE,Adverse credit history
+10923,54448.51,572,81.18,30.45,PAYE,Adverse credit history
+10924,66797.27,769,90.32,45.9,PAYE,Affordability / High DTI
+10925,70705.96,561,65.39,19.01,PAYE,Adverse credit history
+10926,48605.93,755,93.58,27.73,PAYE,LTV exceeds product maximum
+10927,78596.19,705,81.88,56.55,PAYE,Affordability / High DTI
+10928,60189.5,789,94.02,25.68,PAYE,LTV exceeds product maximum
+10929,74105.03,522,67.73,23.97,PAYE,Adverse credit history
+10930,70386.24,685,79.15,49.79,PAYE,Affordability / High DTI
+10931,57927.77,803,92.19,15.87,PAYE,LTV exceeds product maximum
+10932,61828.57,703,82.71,49.46,PAYE,Affordability / High DTI
+10933,54168.38,587,68.45,18.06,PAYE,Adverse credit history
+10934,48267.69,728,83.28,49.16,PAYE,Affordability / High DTI
+10935,44632.21,649,83.44,48.08,PAYE,Affordability / High DTI
+10936,64929.33,781,92.4,28.3,PAYE,LTV exceeds product maximum
+10937,70612.28,588,70.76,21.67,PAYE,Adverse credit history
+10938,80076.81,715,70.3,25.64,Self-Employed < 2yrs,Insufficient trading history
+10939,70359.93,676,87.39,45.91,PAYE,Affordability / High DTI
+10940,92701.34,598,69.94,25.65,PAYE,Adverse credit history
+10941,80274.49,827,73.93,21.82,Self-Employed < 2yrs,Insufficient trading history
+10942,63472.95,628,72.57,15.49,PAYE,Adverse credit history
+10943,66888.27,841,91.16,38.65,PAYE,LTV exceeds product maximum
+10944,106696.07,624,70.51,15.45,PAYE,Adverse credit history
+10945,72434.09,618,69.68,10.0,PAYE,Adverse credit history
+10946,94234.21,564,58.73,22.45,PAYE,Adverse credit history
+10947,76013.32,675,70.12,25.39,Self-Employed < 2yrs,Insufficient trading history
+10948,51593.19,748,90.64,34.1,PAYE,LTV exceeds product maximum
+10949,68856.31,704,68.69,22.68,Self-Employed < 2yrs,Insufficient trading history
+10950,55713.83,781,95.99,35.46,PAYE,LTV exceeds product maximum
+10951,67030.88,812,90.05,19.65,PAYE,LTV exceeds product maximum
+10952,57752.18,700,78.15,30.29,Self-Employed < 2yrs,Insufficient trading history
+10953,62825.46,566,72.74,22.74,PAYE,Adverse credit history
+10954,78953.29,727,86.87,47.03,PAYE,Affordability / High DTI
+10955,73326.51,591,79.94,22.01,PAYE,Adverse credit history
+10956,119188.23,637,59.2,21.55,PAYE,Adverse credit history
+10957,93672.28,581,71.19,17.83,PAYE,Adverse credit history
+10958,80072.76,789,78.86,51.82,PAYE,Affordability / High DTI
+10959,61433.07,757,90.97,33.61,PAYE,LTV exceeds product maximum
+10960,56273.96,678,70.18,24.63,Self-Employed < 2yrs,Insufficient trading history
+10961,59108.46,898,92.42,36.26,PAYE,LTV exceeds product maximum
+10962,57462.86,811,72.91,22.81,Self-Employed < 2yrs,Insufficient trading history
+10963,77234.68,796,73.94,27.5,Self-Employed < 2yrs,Insufficient trading history
+10964,77390.27,900,88.84,47.05,PAYE,Affordability / High DTI
+10965,42702.67,781,88.31,23.18,PAYE,LTV exceeds product maximum
+10966,70877.41,764,85.64,51.31,PAYE,Affordability / High DTI
+10967,49165.25,756,75.52,37.3,Self-Employed < 2yrs,Insufficient trading history
+10968,80076.93,615,75.86,16.18,PAYE,Adverse credit history
+10969,111000.46,687,81.79,32.02,Self-Employed < 2yrs,Insufficient trading history
+10970,55064.17,706,73.08,28.41,Self-Employed < 2yrs,Insufficient trading history
+10971,70480.68,718,90.73,28.6,PAYE,LTV exceeds product maximum
+10972,75583.47,752,86.16,49.27,PAYE,Affordability / High DTI
+10973,104093.76,605,68.73,19.07,PAYE,Adverse credit history
+10974,62931.83,741,73.16,18.89,Self-Employed < 2yrs,Insufficient trading history
+10975,102305.37,613,77.28,17.4,PAYE,Adverse credit history
+10976,124186.32,566,68.95,24.16,PAYE,Adverse credit history
+10977,125051.4,600,54.52,17.48,PAYE,Adverse credit history
+10978,93891.3,588,63.72,18.6,PAYE,Adverse credit history
+10979,72554.29,764,90.87,30.27,PAYE,LTV exceeds product maximum
+10980,38174.06,682,70.02,16.62,Self-Employed < 2yrs,Insufficient trading history
+10981,62296.85,674,81.5,21.96,Self-Employed < 2yrs,Insufficient trading history
+10982,94641.1,755,76.5,30.17,Self-Employed < 2yrs,Insufficient trading history
+10983,80503.55,696,69.16,25.67,Self-Employed < 2yrs,Insufficient trading history
+10984,48146.55,803,62.25,25.26,Self-Employed < 2yrs,Insufficient trading history
+10985,49059.09,843,93.17,30.86,PAYE,LTV exceeds product maximum
+10986,75288.87,735,74.23,20.41,Self-Employed < 2yrs,Insufficient trading history
+10987,74610.56,776,78.39,24.82,Self-Employed < 2yrs,Insufficient trading history
+10988,98079.46,624,59.81,17.12,PAYE,Adverse credit history
+10989,77264.4,726,87.23,56.0,PAYE,Affordability / High DTI
+10990,79487.87,756,77.81,27.59,Self-Employed < 2yrs,Insufficient trading history
+10991,49863.86,768,91.0,21.56,PAYE,LTV exceeds product maximum
+10992,78708.25,729,80.57,32.33,Self-Employed < 2yrs,Insufficient trading history
+10993,61944.55,654,81.9,25.32,Self-Employed < 2yrs,Insufficient trading history
+10994,103030.86,661,58.99,15.26,PAYE,Adverse credit history
+10995,51727.78,738,85.95,53.18,PAYE,Affordability / High DTI
+10996,47231.59,845,91.79,27.8,PAYE,LTV exceeds product maximum
+10997,66821.98,771,90.42,30.36,PAYE,LTV exceeds product maximum
+10998,67016.77,677,87.62,48.87,PAYE,Affordability / High DTI
+10999,75077.12,826,80.46,31.88,Self-Employed < 2yrs,Insufficient trading history
+11000,66227.87,643,84.19,48.79,PAYE,Affordability / High DTI

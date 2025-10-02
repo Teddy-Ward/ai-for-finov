@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI for Finova: A Two-Sided Strategy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0a;
+            color: #f0f0f0;
+            overflow: hidden;
+        }
+        .slide {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .slide.active {
+            display: flex;
+            opacity: 1;
+        }
+        .slide-content {
+            animation: fadeIn 0.8s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .video-placeholder {
+            background-color: #1a1a1a;
+            border: 2px dashed #444;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1rem;
+            border-radius: 0.75rem;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center h-screen w-screen p-4 md:p-8">
+
+    <!-- Slide Container -->
+    <div id="slide-container" class="w-full h-full max-w-6xl mx-auto border border-gray-800 rounded-xl shadow-2xl shadow-blue-900/20 overflow-hidden">
+
+        <!-- Slide 1: Title -->
+        <div class="slide active w-full h-full flex-col items-center justify-center text-center p-8 bg-black">
+            <div class="slide-content w-full">
+                <h1 class="text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">AI for Finova: A Two-Sided Strategy</h1>
+                <p class="mt-4 text-2xl md:text-3xl text-gray-300">From Operational Excellence to Strategic Growth</p>
+                <img src="demo/abstract-glowing-neutral-network.png" alt="Abstract glowing neural network, dark blue background, cinematic, minimalist, digital art." class="w-full max-w-xl mx-auto rounded-lg mt-12 shadow-lg shadow-blue-500/30">
+                <p class="mt-12 text-lg text-gray-500">Ted Ward | Engineer | October 2025</p>
+            </div>
+        </div>
+
+        <!-- Slide 2: The Opportunity -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8">
+             <div class="slide-content w-full max-w-4xl">
+                <h2 class="text-4xl md:text-5xl font-bold text-center">Our Platform Data is a Vast, Untapped Asset</h2>
+                <p class="mt-6 text-xl text-gray-400 text-center">Every day, thousands of applications flow through our systems. This data holds the key to not only improving our current operations but also discovering our future growth.</p>
+                <div class="mt-12 p-8 bg-gray-900/50 border border-gray-700 rounded-lg flex flex-col md:flex-row gap-8 items-center">
+                    <div class="text-center flex-1">
+                        <div class="text-5xl">⚙️</div>
+                        <h3 class="text-xl font-bold mt-2">Operationally</h3>
+                        <p class="text-gray-400">By building intelligent co-pilots to improve the quality of every single application.</p>
+                    </div>
+                    <div class="text-3xl text-blue-400">+</div>
+                     <div class="text-center flex-1">
+                        <div class="text-5xl">🗺️</div>
+                        <h3 class="text-xl font-bold mt-2">Strategically</h3>
+                        <p class="text-gray-400">By discovering hidden market opportunities that no single lender can see.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: The Data Challenge -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8 text-center">
+            <div class="slide-content w-full max-w-4xl">
+                <h2 class="text-4xl md:text-5xl font-bold">The PoC Challenge: Access to Real Data</h2>
+                <p class="mt-6 text-xl text-gray-400">Robust AI requires high-quality data. However, accessing sensitive, production-level application data for an initial proof-of-concept presents significant data governance and privacy hurdles.</p>
+                <div class="mt-12 p-8 bg-gray-900/50 border-dashed border-2 border-gray-600 rounded-lg">
+                    <h3 class="text-2xl font-bold text-green-300">The Solution: A Methodological Approach</h3>
+                    <p class="mt-2 text-lg text-gray-300">To overcome this, we created a high-fidelity synthetic dataset. This approach allows us to prove the viability of the AI methodologies <span class="font-bold">before</span> engaging with complex data access reviews, de-risking the project entirely.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 4: Synthetic Data Generation -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8">
+            <div class="slide-content w-full max-w-5xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center">Methodology: Persona-Driven Synthetic Data</h2>
+                <p class="mt-4 text-xl text-gray-400 text-center">The data was not random. It was generated based on four hypothesised "personas" of underserved applicants.</p>
+                <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    <div class="p-4 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-md font-bold">Stable Gig-Worker</h3>
+                        <p class="text-sm text-gray-400">High income, short trading history.</p>
+                    </div>
+                    <div class="p-4 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-md font-bold">Nearly-There FTB</h3>
+                        <p class="text-sm text-gray-400">Good income, high LTV.</p>
+                    </div>
+                    <div class="p-4 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-md font-bold">Minor Credit Blip</h3>
+                        <p class="text-sm text-gray-400">High income, fair credit score.</p>
+                    </div>
+                    <div class="p-4 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-md font-bold">Slightly Overextended</h3>
+                        <p class="text-sm text-gray-400">Good income, high DTI.</p>
+                    </div>
+                </div>
+                 <p class="mt-8 text-lg text-gray-300">This method ensures our mock data has realistic, built-in patterns. The success of the PoC is then measured by the AI's ability to rediscover these personas without any hints, proving its effectiveness.</p>
+            </div>
+        </div>
+
+        <!-- Slide 5: Problem 1 -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8 text-center">
+            <div class="slide-content w-full max-w-4xl">
+                <h2 class="text-4xl md:text-5xl font-bold">The <span class="text-red-400">Friction</span> in the Funnel</h2>
+                <p class="mt-6 text-xl text-gray-400">Application errors, inconsistencies, and compliance breaches create significant friction.</p>
+                <div class="mt-10 grid md:grid-cols-3 gap-8 text-left">
+                    <div class="p-6 bg-red-900/20 border border-red-700/50 rounded-lg">
+                        <h3 class="text-lg font-bold">For Brokers</h3>
+                        <p class="text-gray-400">Wasted time, frustrating re-work, and delayed commissions.</p>
+                    </div>
+                    <div class="p-6 bg-red-900/20 border border-red-700/50 rounded-lg">
+                        <h3 class="text-lg font-bold">For Lenders</h3>
+                        <p class="text-gray-400">Poor quality submissions and increased underwriting overhead.</p>
+                    </div>
+                     <div class="p-6 bg-red-900/20 border border-red-700/50 rounded-lg">
+                        <h3 class="text-lg font-bold">For Customers</h3>
+                        <p class="text-gray-400">A slow, opaque, and stressful application experience.</p>
+                    </div>
+                </div>
+                <p class="mt-10 text-xl font-bold">This friction costs everyone time and money. We are perfectly positioned to solve it.</p>
+            </div>
+        </div>
+
+        <!-- Slide 6: Solution 1 -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8">
+             <div class="slide-content flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-12">
+                <div class="md:w-1/2">
+                    <h2 class="text-4xl md:text-5xl font-bold">The "Auditor Agent"</h2>
+                    <p class="mt-4 text-xl text-blue-300">An AI Co-pilot for Every Application</p>
+                    <ul class="mt-6 list-disc list-inside text-lg text-gray-400 space-y-2">
+                        <li><span class="font-bold">Cross-references</span> application data against uploaded documents (payslips, etc.).</li>
+                        <li><span class="font-bold">Checks for inconsistencies</span> and missing information.</li>
+                        <li><span class="font-bold">Validates</span> key details against specific lender compliance and policy rules.</li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="demo/auditor-agent.png" alt="Friendly robot assistant reviewing digital documents on a holographic screen, minimalist illustration, blue and white theme." class="rounded-lg shadow-2xl shadow-blue-500/20 w-full">
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Demo 1 -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8">
+            <div class="slide-content text-center w-full max-w-4xl">
+                <h2 class="text-4xl md:text-5xl font-bold">See the Agent in Action</h2>
+                <div class="w-full aspect-video mt-8 bg-black rounded-lg overflow-hidden shadow-2xl shadow-blue-500/20">
+                    <video controls class="w-full h-full" poster="demo/auditor-agent-poster.png">
+                        <source src="demo/auditor-agent.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <p class="mt-4 text-gray-400">120-second demo of the Auditor Agent in action</p>
+            </div>
+        </div>
+        
+        <!-- NEW Slide 8: What the Auditor Agent Does -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8">
+            <div class="slide-content w-full max-w-5xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center">Auditor Agent: What It Does</h2>
+                 <p class="mt-4 text-xl text-gray-400 text-center">The agent follows a dynamic, three-step process for each audit.</p>
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                    <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-bold"><span class="text-blue-400">1. Fetch & Understand</span></h3>
+                        <p class="mt-2 text-gray-400">The agent is given an Applicant ID. Its first action is to use the <span class="font-bold">`get_application_data`</span> tool to retrieve the applicant's details from the dataset, forming its initial understanding of the case.</p>
+                    </div>
+                    <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-bold"><span class="text-blue-400">2. Analyse & Verify</span></h3>
+                        <p class="mt-2 text-gray-400">The agent's reasoning engine plans its next steps. It uses the <span class="font-bold">`compliance_checker`</span> tool to ask specific questions (e.g., "What is the policy for a self-employed applicant?") against the lender's PDF knowledge base, verifying key facts like credit score and LTV.</p>
+                    </div>
+                    <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-bold"><span class="text-blue-400">3. Report</span></h3>
+                        <p class="mt-2 text-gray-400">Once all checks are complete, the agent synthesises its findings into the structured Markdown report, providing clear pass/fail statuses and a final recommendation, completing its task.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Auditor Agent - Architecture & Rationale -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8">
+            <div class="slide-content w-full max-w-5xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center">Auditor Agent: Architecture & Rationale</h2>
+                <div class="mt-8 grid md:grid-cols-2 gap-8 text-left">
+                    <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-bold text-blue-300">Why an Agentic Workflow?</h3>
+                        <p class="mt-2 text-gray-400">A simple script fails when faced with ambiguity. An agent, using a <span class="font-bold">ReAct (Reasoning and Acting)</span> framework, can dynamically plan and execute a multi-step process. It can handle unexpected data, decide which tool to use next, and even self-correct, making it a robust choice for a complex task like auditing.</p>
+                        <p class="mt-3 text-sm text-gray-500">Tech: LangChain Agents, GPT-4-Turbo, Custom Tools</p>
+                    </div>
+                    <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-bold text-blue-300">Why RAG over Fine-Tuning?</h3>
+                        <p class="mt-2 text-gray-400">For compliance, factual accuracy is non-negotiable. <span class="font-bold">Fine-tuning</span> teaches a model a *skill*, but risks factual "hallucination." <span class="font-bold">RAG</span> grounds the agent in a verifiable knowledge source. This approach is easier to update (just swap the PDF), prevents hallucination, and allows for source citations: all critical for an auditable system.</p>
+                        <p class="mt-3 text-sm text-gray-500">Tech: FAISS, Sentence Transformers, PyPDF, LangChain</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: Problem 2 -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8 text-center">
+            <div class="slide-content w-full max-w-4xl">
+                <h2 class="text-4xl md:text-5xl font-bold">What Part of the Market Are We Missing?</h2>
+                <p class="mt-6 text-xl text-gray-400">The UK mortgage market is vast, but lender policies are often rigid. This creates underserved segments of creditworthy applicants who are consistently rejected.</p>
+                <div class="mt-12 p-8 bg-gray-900/50 border-dashed border-2 border-gray-600 rounded-lg">
+                    <h3 class="text-2xl font-bold text-yellow-300">The Lender's Blind Spot</h3>
+                    <p class="mt-2 text-lg text-gray-300">Lenders only see their own rejections. They have no visibility of market-wide patterns. <span class="font-bold">We do.</span></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 11: Solution 2 -->
+         <div class="slide w-full h-full flex-col items-center justify-center p-8">
+             <div class="slide-content flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-12">
+                <div class="md:w-1/2">
+                    <h2 class="text-4xl md:text-5xl font-bold">The "Market Opportunity Finder"</h2>
+                    <p class="mt-4 text-xl text-yellow-300">An Insight Engine to Discover Untapped Niches</p>
+                    <p class="mt-6 text-lg text-gray-400">
+                        This tool uses unsupervised machine learning to analyse patterns in rejected application data from across the platform. It automatically discovers and profiles distinct "tribes" of rejected applicants, turning our data from a simple record into a strategic compass for future growth.
+                    </p>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="demo/market-finder.png" alt="A futuristic digital map of the UK with glowing data points and highlighted regions, representing market analysis and discovery, minimalist, dark theme." class="rounded-lg shadow-2xl shadow-yellow-500/15 w-full">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 12: Demo 2 -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8">
+            <div class="slide-content text-center w-full max-w-4xl">
+                <h2 class="text-4xl md:text-5xl font-bold">Visualising the Hidden Market</h2>
+                <div class="w-full aspect-video mt-8 bg-black rounded-lg overflow-hidden shadow-2xl shadow-yellow-500/20">
+                    <video controls class="w-full h-full" poster="demo/market-finder-poster.png">
+                        <source src="demo/market-finder.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <p class="mt-4 text-gray-400">30-second demo of the Market Finder in action</p>
+            </div>
+        </div>
+
+        <!-- NEW Slide 13: What the Market Finder Does -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8">
+            <div class="slide-content w-full max-w-5xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center">Market Finder: What It Does</h2>
+                 <p class="mt-4 text-xl text-gray-400 text-center">The dashboard is the final output of a three-stage data science pipeline.</p>
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                    <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-bold"><span class="text-yellow-400">1. Pre-process</span></h3>
+                        <p class="mt-2 text-gray-400">The raw data, with its mix of text and numbers on different scales, is cleaned. Categorical data is encoded and all numerical features are scaled to ensure no single feature unfairly dominates the analysis.</p>
+                    </div>
+                    <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-bold"><span class="text-yellow-400">2. Cluster</span></h3>
+                        <p class="mt-2 text-gray-400">The K-Means algorithm is applied to the high-dimensional processed data. It mathematically groups the applicants into four distinct clusters based on their shared characteristics, assigning a segment label to each applicant.</p>
+                    </div>
+                    <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-bold"><span class="text-yellow-400">3. Visualise</span></h3>
+                        <p class="mt-2 text-gray-400">The UMAP algorithm creates a 2D "map" of the data. This map is then plotted using Plotly, with each applicant's colour determined by the cluster label found in the previous step, revealing the hidden market structure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 14: Market Finder - Methodology & Rationale -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8">
+            <div class="slide-content w-full max-w-5xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center">Market Finder: Methodology & Rationale</h2>
+                <div class="mt-8 grid md:grid-cols-2 gap-8 text-left">
+                    <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-bold text-yellow-300">Why Unsupervised Clustering?</h3>
+                        <p class="mt-2 text-gray-400">The goal is to find *unknown* market gaps. We don't have pre-existing labels for these segments, making supervised learning impossible. <span class="font-bold">Unsupervised learning (K-Means)</span> is the correct approach because it allows the algorithm to discover the natural structure and patterns within the data itself, letting the "unknown unknowns" emerge.</p>
+                        <p class="mt-3 text-sm text-gray-500">Tech: scikit-learn, pandas, NumPy</p>
+                    </div>
+                    <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                        <h3 class="text-lg font-bold text-yellow-300">Why UMAP for Visualisation?</h3>
+                        <p class="mt-2 text-gray-400">While PCA is fast, it's linear and misses complex relationships. t-SNE is good at showing local clusters but distorts global structure. <span class="font-bold">UMAP</span> was chosen as it provides a superior balance, preserving both the local neighbourhood of points and the overall global structure of the data, resulting in a more meaningful and trustworthy visualisation.</p>
+                        <p class="mt-3 text-sm text-gray-500">Tech: UMAP, Plotly, Streamlit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 15: Path to Production -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8 text-center">
+             <div class="slide-content w-full max-w-5xl">
+                <h2 class="text-4xl md:text-5xl font-bold">Engineering Roadmap: From PoC to Production</h2>
+                <p class="mt-4 text-xl text-gray-400">These PoCs are built on scalable principles. Here is a high-level roadmap.</p>
+                <div class="mt-10 flex flex-col md:flex-row justify-center items-stretch gap-8">
+                    <div class="flex-1 p-6 bg-blue-900/20 border border-blue-700/50 rounded-lg text-left">
+                        <h3 class="text-xl font-bold">Auditor Agent Service</h3>
+                        <ul class="mt-4 list-disc list-inside text-gray-400 space-y-2">
+                            <li><span class="font-bold">Microservice:</span> Wrap the agent in a FastAPI service for a robust API.</li>
+                            <li><span class="font-bold">Deployment:</span> Containerise with Docker and deploy on a scalable platform like Kubernetes (EKS/GKE).</li>
+                            <li><span class="font-bold">Data Integration:</span> Replace CSV reader with secure connections to production databases and lender APIs.</li>
+                            <li><span class="font-bold">CI/CD:</span> Implement a CI/CD pipeline for automated testing and deployment of agent and tool updates.</li>
+                        </ul>
+                    </div>
+                     <div class="flex-1 p-6 bg-yellow-900/20 border border-yellow-700/50 rounded-lg text-left">
+                        <h3 class="text-xl font-bold">Market Insight Platform</h3>
+                         <ul class="mt-4 list-disc list-inside text-gray-400 space-y-2">
+                            <li><span class="font-bold">Data Pipeline:</span> Use Airflow or a similar orchestrator to run the ML pipeline on anonymised data nightly.</li>
+                            <li><span class="font-bold">Data Warehouse:</span> Store processed data and insights in a scalable warehouse like Snowflake or BigQuery.</li>
+                            <li><span class="font-bold">API Layer:</span> Expose insights via a secure API for internal dashboards or as a new data product for lenders.</li>
+                            <li><span class="font-bold">MLOps:</span> Implement model monitoring to detect data drift and retrain the clustering model periodically.</li>
+                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 16: Future Vision -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8 text-center">
+             <div class="slide-content w-full max-w-5xl">
+                <h2 class="text-4xl md:text-5xl font-bold">Future Vision: An Intelligent Ecosystem</h2>
+                <p class="mt-4 text-xl text-gray-400">These PoCs are the foundation for a fully integrated, intelligent platform.</p>
+                <div class="mt-10 flex flex-col md:flex-row justify-center items-stretch gap-8">
+                    <div class="flex-1 p-6 bg-blue-900/20 border border-blue-700/50 rounded-lg text-left">
+                        <h3 class="text-xl font-bold">Evolving the Auditor</h3>
+                        <p class="text-sm text-gray-500 mb-4">From Post-Facto Check to Live Co-pilot</p>
+                        <ul class="list-disc list-inside text-gray-400 space-y-2">
+                            <li><span class="font-bold">Comprehensive Compliance:</span> Expand the knowledge base beyond individual lender policies to include overarching FCA regulations (MCOB), AML, and KYC requirements.</li>
+                            <li><span class="font-bold">Proactive Guidance:</span> Instead of just auditing, the agent could flag likely issues and missing documents as a broker completes the form in real-time.</li>
+                            <li><span class="font-bold">Multi-Lender Engine:</span> Dynamically switch the active policy in the RAG system to audit against multiple lenders simultaneously, saving brokers hours of work.</li>
+                        </ul>
+                    </div>
+                     <div class="flex-1 p-6 bg-yellow-900/20 border border-yellow-700/50 rounded-lg text-left">
+                        <h3 class="text-xl font-bold">Evolving the Market Finder</h3>
+                        <p class="text-sm text-gray-500 mb-4">A Strategic Asset for Finova, Not a BI Tool for Lenders</p>
+                         <ul class="list-disc list-inside text-gray-400 space-y-2">
+                            <li><span class="font-bold">"Smart Submission" Engine:</span> This is not a replacement for a lender's BI. It is a unique Finova tool that uses our market-wide view to recommend the top lenders most likely to accept a complex case, reducing broker re-submissions and improving success rates.</li>
+                            <li><span class="font-bold">Market Trend Analysis:</span> Analyse shifts in rejection patterns over time to provide high-level, anonymised reports on market changes, creating a new strategic data product for Finova.</li>
+                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 17: Synergy & Next Steps -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8 text-center">
+             <div class="slide-content w-full max-w-4xl">
+                <h2 class="text-4xl md:text-5xl font-bold">A Complete AI Strategy</h2>
+                <p class="mt-6 text-xl text-gray-400">These two PoCs are two sides of the same coin, giving us the tools to both <span class="text-blue-400">win today</span> and <span class="text-yellow-400">plan for tomorrow.</span></p>
+                <div class="mt-12 flex flex-col md:flex-row justify-center items-stretch gap-8">
+                    <div class="flex-1 p-6 bg-blue-900/20 border border-blue-700/50 rounded-lg">
+                        <h3 class="text-xl font-bold">Auditor Agent ➡️ De-risks the Present</h3>
+                        <p class="text-gray-400 mt-2">Improves operational efficiency and day-to-day quality.</p>
+                    </div>
+                     <div class="flex-1 p-6 bg-yellow-900/20 border border-yellow-700/50 rounded-lg">
+                        <h3 class="text-xl font-bold">Market Finder ➡️ Finds the Future</h3>
+                        <p class="text-gray-400 mt-2">Uncovers strategic growth opportunities and new markets.</p>
+                    </div>
+                </div>
+                 <div class="mt-12">
+                    <h3 class="text-2xl font-bold">Next Step</h3>
+                    <p class="mt-2 text-lg text-gray-300">The recommended next step is to run these models on a sample of real, anonymised platform data to validate and quantify the opportunity.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 18: Thank You -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8 text-center bg-black">
+            <div class="slide-content">
+                <h2 class="text-6xl font-black">Thank You</h2>
+                <p class="mt-6 text-xl text-gray-400">Happy to answer any questions.</p>
+                <div class="mt-10 text-lg">
+                    <p class="font-bold">Ted Ward</p>
+                    <p class="text-gray-500">Engineer</p>
+                </div>
+                <a href="https://github.com/Teddy-Ward/ai-for-finov.git" class="mt-8 inline-block text-blue-400 hover:underline">
+                    View Technical Appendix & Code on GitHub
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Navigation -->
+    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-4 bg-gray-900/50 backdrop-blur-sm border border-gray-700 rounded-full px-4 py-2">
+        <button id="prev-btn" class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+        </button>
+        <div id="slide-counter" class="text-sm font-medium w-12 text-center">1 / 18</div>
+        <button id="next-btn" class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+        </button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slides = document.querySelectorAll('.slide');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const slideCounter = document.getElementById('slide-counter');
+            
+            let currentSlide = 0;
+            const totalSlides = slides.length;
+
+            function showSlide(index) {
+                // Hide current slide
+                if (slides[currentSlide]) {
+                    slides[currentSlide].classList.remove('active');
+                }
+
+                // Update index
+                currentSlide = index;
+                
+                // Show new slide
+                if (slides[currentSlide]) {
+                    slides[currentSlide].classList.add('active');
+                }
+
+                // Update counter and buttons
+                slideCounter.textContent = `${currentSlide + 1} / ${totalSlides}`;
+                prevBtn.disabled = currentSlide === 0;
+                nextBtn.disabled = currentSlide === totalSlides - 1;
+            }
+
+            prevBtn.addEventListener('click', () => {
+                if (currentSlide > 0) {
+                    showSlide(currentSlide - 1);
+                }
+            });
+
+            nextBtn.addEventListener('click', () => {
+                if (currentSlide < totalSlides - 1) {
+                    showSlide(currentSlide + 1);
+                }
+            });
+            
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowRight' && currentSlide < totalSlides - 1) {
+                    showSlide(currentSlide + 1);
+                } else if (e.key === 'ArrowLeft' && currentSlide > 0) {
+                     showSlide(currentSlide - 1);
+                }
+            });
+
+            // Initialize
+            showSlide(0);
+        });
+    </script>
+
+</body>
+</html>
+
+

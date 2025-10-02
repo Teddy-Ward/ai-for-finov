@@ -12,8 +12,8 @@ DB_PATH = "knowledge_base/faiss_index"
 @tool
 def get_application_data(applicant_id: int) -> str:
     """
-    Fetches the data for a single mortgage application using its ID.
-    Returns the data as a string.
+        Fetches the data for a single mortgage application using its ID.
+        Returns the data as a formatted string with clear field labels.
     """
     print(f"--- Calling get_application_data for Applicant ID: {applicant_id} ---")
     try:
@@ -23,8 +23,24 @@ def get_application_data(applicant_id: int) -> str:
         if applicant_data.empty:
             return f"Error: No applicant found with ID {applicant_id}."
 
-        # Convert the row to a string format for the LLM
-        return applicant_data.to_string()
+        # Get the first (and only) row
+        row = applicant_data.iloc[0]
+        
+        # Format the data in a more readable way
+        formatted_data = f"""
+            APPLICANT DATA RETRIEVED:
+            ========================
+            Applicant ID: {row['ApplicantID']}
+            Income: £{row['Income']:,.2f}
+            Credit Score: {row['CreditScore']}
+            Loan-to-Value (LTV): {row['LTV']}%
+            Debt-to-Income Ratio: {row['DebtToIncomeRatio']}%
+            Employment Status: {row['EmploymentStatus']}
+            Rejection Reason: {row['RejectionReason']}
+            ========================
+        """.strip()
+        
+        return formatted_data
     except FileNotFoundError:
         return f"Error: The data file at {DATA_PATH} was not found."
     except Exception as e:
@@ -58,6 +74,16 @@ def compliance_checker(query: str) -> str:
         
         # Run the query and return the result
         result = qa_chain.invoke(query)
-        return result['result']
+        
+        # Format the response for better readability
+        formatted_result = f"""
+            COMPLIANCE CHECK RESULT:
+            =======================
+            Query: {query}
+            Answer: {result['result']}
+            =======================
+        """.strip()
+        
+        return formatted_result
     except Exception as e:
         return f"An error occurred while checking compliance: {e}"

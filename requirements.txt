@@ -1,0 +1,22 @@
+# Core libraries for data and environment
+pandas
+numpy
+python-dotenv
+
+# For the Streamlit web applications
+streamlit
+
+# For the "Market Opportunity Finder" (Data Science)
+scikit-learn
+umap-learn
+plotly
+
+# For the "Auditor Agent" (AI Engineering)
+langchain
+langchain-community
+langchain-openai  
+
+# For the RAG tool (vector store and PDF loading)
+faiss-cpu
+sentence-transformers
+pypdf
