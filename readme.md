@@ -165,6 +165,57 @@ streamlit run app.py
 - Plotly for interactive charts
 - Automatic feature scaling and categorical encoding
 
+### Cluster Analysis Methods
+
+This application demonstrates how to determine the optimal number of clusters for K-Means analysis using statistical methods.
+
+**Prerequisites:**
+- Data files are already included (see step 5 above)
+- No API keys required (runs entirely locally)
+
+**Setup Steps:**
+
+1. **Ensure your virtual environment is activated** (you should see `(venv)` in your terminal prompt)
+
+2. Navigate into the cluster analysis directory:
+
+```bash
+cd cluster_analysis_poc
+```
+
+3. Launch the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+**How to Use:**
+- Use the slider to select the maximum number of clusters (k) to test (2-15)
+- View the Elbow Method plot showing WCSS (Within-Cluster Sum of Squares) vs. number of clusters
+- View the Silhouette Score plot showing cluster separation quality
+- The application automatically identifies the optimal k using both methods
+- Compare results from both statistical approaches
+
+**Features:**
+- **Elbow Method**: Uses WCSS to find the point of diminishing returns
+- **Silhouette Analysis**: Measures cluster separation quality (range: -1 to 1, higher is better)
+- **Automatic Detection**: Uses KneeLocator library to automatically find the elbow point
+- **Interactive Controls**: Adjustable maximum k value for testing
+- **Real-time Calculation**: Processes clustering metrics on demand
+
+**Technical Details:**
+- Uses scikit-learn for K-Means clustering and silhouette score calculation
+- KneeLocator library for automatic elbow point detection
+- Plotly for interactive visualization
+- StandardScaler and OneHotEncoder for data preprocessing
+- Cached calculations for performance optimization
+
+**Statistical Methods Explained:**
+- **WCSS (Within-Cluster Sum of Squares)**: Measures the compactness of clusters
+- **Silhouette Score**: Measures how similar an object is to its own cluster compared to other clusters
+- **Elbow Point**: The optimal balance between model complexity and performance
+- **Optimal k Selection**: Combines both methods for robust cluster number determination
+
 ## Troubleshooting
 
 ### Common Issues
@@ -213,6 +264,8 @@ streamlit run app.py
 │   ├── docs/                     # PDF documents for RAG
 │   └── knowledge_base/           # Generated vector store
 ├── market_finder_poc/            # Data Science dashboard
+│   └── app.py                    # Main Streamlit application
+├── cluster_analysis_poc/         # Cluster analysis methods
 │   └── app.py                    # Main Streamlit application
 ├── generate_data.py              # Mock data generator
 ├── requirements.txt              # Python dependencies
