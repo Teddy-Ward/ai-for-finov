@@ -18,7 +18,7 @@ Follow these steps to get the project and its dependencies set up locally.
 First, clone this repository to your local machine.
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Teddy-Ward/ai-for-finov.git
 cd finova_ai_poc
 ```
 
