@@ -169,7 +169,7 @@
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <p class="mt-4 text-gray-400">120-second demo of the Auditor Agent in action</p>
+                <p class="mt-4 text-gray-400">90-second demo of the Auditor Agent in action</p>
             </div>
         </div>
         
@@ -214,7 +214,63 @@
             </div>
         </div>
 
-        <!-- Slide 10: Problem 2 -->
+        <!-- Slide 10: Auditor Agent - Real-World Considerations -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8">
+            <div class="slide-content w-full max-w-6xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center">Auditor Agent: Real-World Implementation Challenges</h2>
+                <p class="mt-4 text-xl text-gray-400 text-center">While our PoC demonstrates the core functionality, production deployment requires addressing several critical considerations.</p>
+                
+                <div class="mt-8 grid md:grid-cols-2 gap-8 text-left">
+                    <div class="space-y-6">
+                        <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                            <h3 class="text-lg font-bold text-blue-300">Technical Architecture Challenges</h3>
+                            <ul class="mt-2 text-sm text-gray-400 list-disc list-inside space-y-1">
+                                <li><span class="font-bold">RAG System Scalability:</span> FAISS index needs to handle multiple lender policies simultaneously</li>
+                                <li><span class="font-bold">Tool Integration:</span> Replace CSV reader with secure database connections and API integrations</li>
+                                <li><span class="font-bold">Model Performance:</span> GPT-4-Turbo costs and latency for high-volume processing</li>
+                                <li><span class="font-bold">Error Handling:</span> Robust fallback mechanisms when tools fail or return unexpected results</li>
+                            </ul>
+                            <p class="mt-2 text-xs text-gray-500">Tech: FastAPI, PostgreSQL, Redis, Docker, Kubernetes</p>
+                        </div>
+                        
+                        <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                            <h3 class="text-lg font-bold text-blue-300">Compliance & Auditability</h3>
+                            <ul class="mt-2 text-sm text-gray-400 list-disc list-inside space-y-1">
+                                <li><span class="font-bold">Decision Traceability:</span> Every audit decision must be fully explainable and auditable</li>
+                                <li><span class="font-bold">Policy Versioning:</span> Handle updates to lender policies without breaking existing audits</li>
+                                <li><span class="font-bold">Regulatory Compliance:</span> Ensure the system meets FCA requirements for automated decision-making</li>
+                                <li><span class="font-bold">Human Oversight:</span> Build-in escalation paths for complex or edge cases</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                            <h3 class="text-lg font-bold text-blue-300">Operational Considerations</h3>
+                            <ul class="mt-2 text-sm text-gray-400 list-disc list-inside space-y-1">
+                                <li><span class="font-bold">Processing Time:</span> Current PoC takes ~30-35 seconds; production needs quicker responses or good visual feedback for the user</li>
+                                <li><span class="font-bold">Concurrent Users:</span> Handle multiple brokers running audits simultaneously</li>
+                                <li><span class="font-bold">Data Security:</span> Encrypt sensitive application data in transit and at rest</li>
+                                <li><span class="font-bold">Monitoring:</span> Real-time alerts for system failures or unusual audit patterns</li>
+                            </ul>
+                            <p class="mt-2 text-xs text-gray-500">Tech: Prometheus, Grafana, ELK Stack, OAuth2</p>
+                        </div>
+                        
+                        <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                            <h3 class="text-lg font-bold text-blue-300">Business Integration</h3>
+                            <ul class="mt-2 text-sm text-gray-400 list-disc list-inside space-y-1">
+                                <li><span class="font-bold">Workflow Integration:</span> Seamlessly embed into existing broker platforms and CRM systems</li>
+                                <li><span class="font-bold">User Experience:</span> Design intuitive interfaces that don't disrupt existing workflows</li>
+                                <li><span class="font-bold">Training & Adoption:</span> Comprehensive training programs for brokers and underwriters</li>
+                                <li><span class="font-bold">Performance Metrics:</span> Track audit accuracy, time savings, and user satisfaction</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 11: Problem 2 -->
         <div class="slide w-full h-full flex-col items-center justify-center p-8 text-center">
             <div class="slide-content w-full max-w-4xl">
                 <h2 class="text-4xl md:text-5xl font-bold">What Part of the Market Are We Missing?</h2>
@@ -226,7 +282,7 @@
             </div>
         </div>
 
-        <!-- Slide 11: Solution 2 -->
+        <!-- Slide 12: Solution 2 -->
          <div class="slide w-full h-full flex-col items-center justify-center p-8">
              <div class="slide-content flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-12">
                 <div class="md:w-1/2">
@@ -242,7 +298,7 @@
             </div>
         </div>
         
-        <!-- Slide 12: Demo 2 -->
+        <!-- Slide 13: Demo 2 -->
         <div class="slide w-full h-full flex-col items-center justify-center p-8">
             <div class="slide-content text-center w-full max-w-4xl">
                 <h2 class="text-4xl md:text-5xl font-bold">Visualising the Hidden Market</h2>
@@ -256,7 +312,7 @@
             </div>
         </div>
 
-        <!-- NEW Slide 13: What the Market Finder Does -->
+        <!-- Slide 14: What the Market Finder Does -->
         <div class="slide w-full h-full flex-col items-center justify-center p-8">
             <div class="slide-content w-full max-w-5xl">
                 <h2 class="text-3xl md:text-4xl font-bold text-center">Market Finder: What It Does</h2>
@@ -278,7 +334,7 @@
             </div>
         </div>
         
-        <!-- Slide 14: Market Finder - Methodology & Rationale -->
+        <!-- Slide 15: Market Finder - Methodology & Rationale -->
         <div class="slide w-full h-full flex-col items-center justify-center p-8">
             <div class="slide-content w-full max-w-5xl">
                 <h2 class="text-3xl md:text-4xl font-bold text-center">Market Finder: Methodology & Rationale</h2>
@@ -297,7 +353,52 @@
             </div>
         </div>
 
-        <!-- Slide 15: Path to Production -->
+        <!-- Slide 16: Real-World Considerations -->
+        <div class="slide w-full h-full flex-col items-center justify-center p-8">
+            <div class="slide-content w-full max-w-6xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center">Real-World Considerations: Determining Valid Outcomes</h2>
+                <p class="mt-4 text-xl text-gray-400 text-center">While our PoC successfully identified four distinct clusters, real-world implementation requires additional validation and refinement.</p>
+                
+                <div class="mt-8 flex flex-col md:flex-row items-center justify-center gap-8">
+                    <div class="md:w-1/2">
+                        <img src="demo/optimal-number-of-clusters.png" alt="Elbow method graph showing optimal number of clusters for K-means analysis" class="rounded-lg shadow-2xl shadow-yellow-500/20 w-full">
+                    </div>
+                    <div class="md:w-1/2">
+                        <div class="space-y-4">
+                            <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                                <h3 class="text-lg font-bold text-yellow-300">How We Determine Optimal Clusters</h3>
+                                <p class="mt-2 text-gray-400">Our PoC uses two complementary methods:</p>
+                                <ul class="mt-2 text-sm text-gray-400 list-disc list-inside space-y-1">
+                                    <li><span class="font-bold">Elbow Method:</span> Uses WCSS (Within-Cluster Sum of Squares) to find the point of diminishing returns</li>
+                                    <li><span class="font-bold">Silhouette Analysis:</span> Measures cluster separation quality (range: -1 to 1, higher is better)</li>
+                                </ul>
+                                <p class="mt-2 text-xs text-gray-500">Tech: KneeLocator library, sklearn.metrics.silhouette_score</p>
+                            </div>
+                            <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                                <h3 class="text-lg font-bold text-yellow-300">Data Preprocessing Pipeline</h3>
+                                <p class="mt-2 text-gray-400">Before clustering, we standardize the data:</p>
+                                <ul class="mt-2 text-sm text-gray-400 list-disc list-inside space-y-1">
+                                    <li><span class="font-bold">Numerical features:</span> StandardScaler for Income, CreditScore, LTV, DebtToIncomeRatio</li>
+                                    <li><span class="font-bold">Categorical features:</span> OneHotEncoder for EmploymentStatus</li>
+                                </ul>
+                                <p class="mt-2 text-xs text-gray-500">Tech: sklearn.preprocessing, ColumnTransformer</p>
+                            </div>
+                            <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+                                <h3 class="text-lg font-bold text-yellow-300">Real-World Validation Challenges</h3>
+                                <p class="mt-2 text-gray-400">Production deployment requires:</p>
+                                <ul class="mt-2 text-sm text-gray-400 list-disc list-inside space-y-1">
+                                    <li><span class="font-bold">Domain expertise:</span> Business validation of cluster interpretability</li>
+                                    <li><span class="font-bold">Data drift monitoring:</span> Automated detection of changing patterns</li>
+                                    <li><span class="font-bold">Model retraining:</span> Periodic updates as market conditions evolve</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 17: Path to Production -->
         <div class="slide w-full h-full flex-col items-center justify-center p-8 text-center">
              <div class="slide-content w-full max-w-5xl">
                 <h2 class="text-4xl md:text-5xl font-bold">Engineering Roadmap: From PoC to Production</h2>
@@ -325,7 +426,7 @@
             </div>
         </div>
 
-        <!-- Slide 16: Future Vision -->
+        <!-- Slide 18: Future Vision -->
         <div class="slide w-full h-full flex-col items-center justify-center p-8 text-center">
              <div class="slide-content w-full max-w-5xl">
                 <h2 class="text-4xl md:text-5xl font-bold">Future Vision: An Intelligent Ecosystem</h2>
@@ -352,7 +453,7 @@
             </div>
         </div>
 
-        <!-- Slide 17: Synergy & Next Steps -->
+        <!-- Slide 19: Synergy & Next Steps -->
         <div class="slide w-full h-full flex-col items-center justify-center p-8 text-center">
              <div class="slide-content w-full max-w-4xl">
                 <h2 class="text-4xl md:text-5xl font-bold">A Complete AI Strategy</h2>
@@ -374,7 +475,7 @@
             </div>
         </div>
 
-        <!-- Slide 18: Thank You -->
+        <!-- Slide 20: Thank You -->
         <div class="slide w-full h-full flex-col items-center justify-center p-8 text-center bg-black">
             <div class="slide-content">
                 <h2 class="text-6xl font-black">Thank You</h2>
@@ -396,7 +497,7 @@
         <button id="prev-btn" class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
         </button>
-        <div id="slide-counter" class="text-sm font-medium w-12 text-center">1 / 18</div>
+        <div id="slide-counter" class="text-sm font-medium w-12 text-center">1 / 20</div>
         <button id="next-btn" class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
         </button>

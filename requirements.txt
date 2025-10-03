@@ -20,3 +20,6 @@ langchain-openai
 faiss-cpu
 sentence-transformers
 pypdf
+
+# For the Cluster analysis tool (K-Means Clustering)
+kneed
