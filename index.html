@@ -1306,6 +1306,655 @@
           >
             View Technical Appendix & Code on GitHub
           </a>
+
+          <!-- Optional Deep Dive Notice -->
+          <div
+            class="mt-10 p-6 bg-gradient-to-r from-gray-800/50 to-gray-900/50 border-2 border-gray-600 rounded-lg max-w-2xl mx-auto"
+          >
+            <p class="text-lg text-center text-gray-300">
+              <span class="font-bold text-white"
+                >📚 Optional: Technical Deep Dives</span
+              ><br />
+              <span class="text-sm text-gray-400 mt-2 inline-block">
+                The following slides contain detailed technical breakdowns of
+                each POC.<br />
+                <span class="text-gray-500"
+                  >Press → to continue or stop here if you prefer.</span
+                >
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 14: Deep Dive - Auditor Agent -->
+      <div class="slide w-full h-full flex-col items-center p-8">
+        <div class="slide-content w-full max-w-6xl">
+          <h2 class="text-5xl font-black mb-6 text-center">
+            Deep Dive: Auditor Agent
+          </h2>
+          <p class="text-xl text-gray-400 text-center mb-8">
+            AI Co-Pilot for Mortgage Application Auditing
+          </p>
+
+          <!-- Architecture Overview -->
+          <div
+            class="mb-8 p-6 bg-gradient-to-br from-blue-900/30 to-purple-900/30 border border-blue-700/50 rounded-lg"
+          >
+            <h3 class="text-2xl font-bold mb-4 text-blue-400">
+              🏗️ Architecture
+            </h3>
+            <div class="grid md:grid-cols-2 gap-6">
+              <div>
+                <h4 class="font-bold text-lg mb-2 text-blue-300">
+                  RAG System (Retrieval-Augmented Generation)
+                </h4>
+                <ul class="text-gray-400 space-y-1 text-sm">
+                  <li>• FAISS vector database for policy documents</li>
+                  <li>• HuggingFace embeddings (sentence-transformers)</li>
+                  <li>• Semantic search for compliance rules</li>
+                  <li>• Real-time policy retrieval during audits</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg mb-2 text-purple-300">
+                  LangGraph Agent
+                </h4>
+                <ul class="text-gray-400 space-y-1 text-sm">
+                  <li>• GPT-4-turbo for reasoning and analysis</li>
+                  <li>• Custom tools: data fetcher, compliance checker</li>
+                  <li>• Multi-step reasoning with tool chaining</li>
+                  <li>• Structured audit report generation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- How We Built It -->
+          <div
+            class="mb-8 p-6 bg-gray-900/50 border border-gray-700 rounded-lg"
+          >
+            <h3 class="text-2xl font-bold mb-4 text-green-400">
+              🔧 Implementation Process
+            </h3>
+            <div class="space-y-4">
+              <div class="flex gap-4">
+                <div
+                  class="bg-green-600 text-white font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0"
+                >
+                  1
+                </div>
+                <div>
+                  <h4 class="font-bold text-white">Generated Mock Data</h4>
+                  <p class="text-gray-400 text-sm">
+                    Created 1,000 synthetic mortgage applications using Faker
+                    with 4 realistic rejection personas (Gig-Worker, High LTV,
+                    Credit Blip, Overextended)
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div
+                  class="bg-green-600 text-white font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0"
+                >
+                  2
+                </div>
+                <div>
+                  <h4 class="font-bold text-white">Built Knowledge Base</h4>
+                  <p class="text-gray-400 text-sm">
+                    Ingested lender policy PDFs into FAISS vector store using
+                    RecursiveCharacterTextSplitter (chunk_size=1000,
+                    overlap=200)
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div
+                  class="bg-green-600 text-white font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0"
+                >
+                  3
+                </div>
+                <div>
+                  <h4 class="font-bold text-white">Created Agent Tools</h4>
+                  <p class="text-gray-400 text-sm">
+                    Built custom LangChain tools for fetching application data
+                    and querying the knowledge base with proper error handling
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-4">
+                <div
+                  class="bg-green-600 text-white font-bold rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0"
+                >
+                  4
+                </div>
+                <div>
+                  <h4 class="font-bold text-white">Added Human-in-the-Loop</h4>
+                  <p class="text-gray-400 text-sm">
+                    Implemented review interface where experts can edit AI
+                    audits + GPT-4 analyses "Why did you change this?" to
+                    categorise errors
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Training Data Collection -->
+          <div
+            class="p-6 bg-gradient-to-r from-yellow-900/30 to-orange-900/30 border border-yellow-700/50 rounded-lg"
+          >
+            <h3 class="text-2xl font-bold mb-3 text-yellow-400">
+              📊 Training Data Structure
+            </h3>
+            <pre
+              class="text-xs bg-black p-4 rounded overflow-x-auto text-gray-300"
+            ><code>{
+  "applicant_id": "10042",
+  "timestamp": "2026-01-05T14:23:10",
+  "ai_output": { /* original audit */ },
+  "human_corrections": { /* expert edits */ },
+  "change_analysis": {
+    "agreement_level": "partial_agreement",
+    "ai_error_categories": ["factual_error", "policy_misinterpretation"],
+    "learning_priority": "high"
+  }
+}</code></pre>
+            <p class="text-sm text-gray-400 mt-3">
+              Auto-saves to
+              <code class="bg-black px-2 py-1 rounded"
+                >auditor_agent_poc/training_data/</code
+              >
+              in JSON format
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 15: Deep Dive - Visual Forensic Scanner -->
+      <div class="slide w-full h-full flex-col items-center p-8">
+        <div class="slide-content w-full max-w-6xl">
+          <h2 class="text-5xl font-black mb-6 text-center">
+            Deep Dive: Visual Forensic Scanner
+          </h2>
+          <p class="text-xl text-gray-400 text-center mb-8">
+            5-Module Document Tampering Detection System
+          </p>
+
+          <!-- Architecture -->
+          <div
+            class="mb-8 p-6 bg-gradient-to-br from-red-900/30 to-pink-900/30 border border-red-700/50 rounded-lg"
+          >
+            <h3 class="text-2xl font-bold mb-4 text-red-400">
+              🔬 Forensic Modules
+            </h3>
+            <div class="grid grid-cols-5 gap-3 text-center text-sm">
+              <div class="p-3 bg-black/50 rounded-lg">
+                <div class="text-2xl mb-1">📄</div>
+                <div class="font-bold text-blue-400">Module 1</div>
+                <div class="text-gray-400">Data Extraction</div>
+                <div class="text-xs text-gray-500 mt-1">GPT-4o Vision OCR</div>
+              </div>
+              <div class="p-3 bg-black/50 rounded-lg">
+                <div class="text-2xl mb-1">🧮</div>
+                <div class="font-bold text-green-400">Module 2</div>
+                <div class="text-gray-400">Math Validation</div>
+                <div class="text-xs text-gray-500 mt-1">
+                  Penny-perfect audits
+                </div>
+              </div>
+              <div class="p-3 bg-black/50 rounded-lg">
+                <div class="text-2xl mb-1">👁️</div>
+                <div class="font-bold text-purple-400">Module 3</div>
+                <div class="text-gray-400">Visual Analysis</div>
+                <div class="text-xs text-gray-500 mt-1">
+                  SSIM + Font profiling
+                </div>
+              </div>
+              <div class="p-3 bg-black/50 rounded-lg">
+                <div class="text-2xl mb-1">🔍</div>
+                <div class="font-bold text-yellow-400">Module 4</div>
+                <div class="text-gray-400">Digital Forensics</div>
+                <div class="text-xs text-gray-500 mt-1">ELA + Metadata</div>
+              </div>
+              <div class="p-3 bg-black/50 rounded-lg">
+                <div class="text-2xl mb-1">⚖️</div>
+                <div class="font-bold text-red-400">Module 5</div>
+                <div class="text-gray-400">Risk Scoring</div>
+                <div class="text-xs text-gray-500 mt-1">AI synthesis</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Implementation -->
+          <div
+            class="mb-8 p-6 bg-gray-900/50 border border-gray-700 rounded-lg"
+          >
+            <h3 class="text-2xl font-bold mb-4 text-green-400">
+              🔧 How We Built It
+            </h3>
+            <div class="grid md:grid-cols-2 gap-4 text-sm">
+              <div>
+                <h4 class="font-bold text-white mb-2">
+                  Computer Vision Pipeline
+                </h4>
+                <ul class="text-gray-400 space-y-1">
+                  <li>• PyMuPDF for PDF → image conversion</li>
+                  <li>• OpenCV for edge detection & font analysis</li>
+                  <li>• scikit-image SSIM for layout comparison</li>
+                  <li>• PIL for Error Level Analysis (ELA)</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-bold text-white mb-2">AI Integration</h4>
+                <ul class="text-gray-400 space-y-1">
+                  <li>• GPT-4o Vision API for OCR</li>
+                  <li>• Structured outputs with Pydantic</li>
+                  <li>• MD5 hash for identical file detection</li>
+                  <li>• Template detection (match_rate < 0.3)</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-bold text-white mb-2">Gold Standard Setup</h4>
+                <ul class="text-gray-400 space-y-1">
+                  <li>• Authentic payslip as baseline</li>
+                  <li>• Pre-extracted data in template_library.py</li>
+                  <li>• Pre-computed visual fingerprints</li>
+                  <li>• Used for all comparisons</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-bold text-white mb-2">Data Collection</h4>
+                <ul class="text-gray-400 space-y-1">
+                  <li>• Auto-saves after every analysis</li>
+                  <li>• No human interaction required</li>
+                  <li>• 100% coverage of all uploads</li>
+                  <li>• Timestamp + file hash tracking</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Training Data -->
+          <div
+            class="p-6 bg-gradient-to-r from-purple-900/30 to-blue-900/30 border border-purple-700/50 rounded-lg"
+          >
+            <h3 class="text-2xl font-bold mb-3 text-purple-400">
+              📊 ML-Ready Feature Vectors
+            </h3>
+            <div class="grid md:grid-cols-2 gap-4 text-sm">
+              <div>
+                <h4 class="font-bold text-white mb-2">Pre-computed Features</h4>
+                <pre
+                  class="text-xs bg-black p-3 rounded text-gray-300"
+                ><code>data_match_rate: 0.85
+ssim_score: 0.73
+font_consistency: 0.92
+ela_manipulation_score: 0.45
+discrepancy_count: 3</code></pre>
+              </div>
+              <div>
+                <h4 class="font-bold text-white mb-2">Training Labels</h4>
+                <pre
+                  class="text-xs bg-black p-3 rounded text-gray-300"
+                ><code>is_tampered: true
+is_authentic: false
+confidence_band: "MODERATE"
+trust_score: 45.2</code></pre>
+              </div>
+            </div>
+            <p class="text-gray-400 mt-3">
+              Ready for RandomForest, XGBoost, or neural network classifiers
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 16: Deep Dive - Market Finder -->
+      <div class="slide w-full h-full flex-col items-center p-8">
+        <div class="slide-content w-full max-w-6xl">
+          <h2 class="text-5xl font-black mb-6 text-center">
+            Deep Dive: Market Opportunity Finder
+          </h2>
+          <p class="text-xl text-gray-400 text-center mb-8">
+            Unsupervised Learning for Hidden Customer Segments
+          </p>
+
+          <!-- Algorithm Overview -->
+          <div
+            class="mb-8 p-6 bg-gradient-to-br from-cyan-900/30 to-blue-900/30 border border-cyan-700/50 rounded-lg"
+          >
+            <h3 class="text-2xl font-bold mb-4 text-cyan-400">
+              🧠 ML Pipeline
+            </h3>
+            <div class="grid md:grid-cols-3 gap-4">
+              <div class="p-4 bg-black/50 rounded-lg">
+                <h4 class="font-bold text-lg mb-2 text-cyan-300">
+                  1. Preprocessing
+                </h4>
+                <ul class="text-gray-400 space-y-1 text-sm">
+                  <li>• StandardScaler for numerical features</li>
+                  <li>• OneHotEncoder for categorical data</li>
+                  <li>• Feature selection (income, credit, LTV, DTI)</li>
+                </ul>
+              </div>
+              <div class="p-4 bg-black/50 rounded-lg">
+                <h4 class="font-bold text-lg mb-2 text-blue-300">
+                  2. Clustering
+                </h4>
+                <ul class="text-gray-400 space-y-1 text-sm">
+                  <li>• K-Means (k=4) for segmentation</li>
+                  <li>• UMAP for 2D visualisation</li>
+                  <li>• Cluster profiling & analysis</li>
+                </ul>
+              </div>
+              <div class="p-4 bg-black/50 rounded-lg">
+                <h4 class="font-bold text-lg mb-2 text-purple-300">
+                  3. Visualisation
+                </h4>
+                <ul class="text-gray-400 space-y-1 text-sm">
+                  <li>• Plotly interactive scatter plots</li>
+                  <li>• Hover details for each applicant</li>
+                  <li>• Colour-coded by cluster</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Discovered Personas -->
+          <div
+            class="mb-8 p-6 bg-gray-900/50 border border-gray-700 rounded-lg"
+          >
+            <h3 class="text-2xl font-bold mb-4 text-green-400">
+              👥 4 Discovered Personas
+            </h3>
+            <div class="grid md:grid-cols-2 gap-4">
+              <div
+                class="p-4 bg-gradient-to-br from-blue-900/30 to-cyan-900/30 border border-blue-700/50 rounded-lg"
+              >
+                <h4 class="font-bold text-xl text-blue-400 mb-2">
+                  Stable Gig-Worker
+                </h4>
+                <p class="text-gray-400 text-sm mb-2">
+                  Self-employed with insufficient trading history
+                </p>
+                <div class="text-xs text-gray-500">
+                  <div>• Avg Income: £52k</div>
+                  <div>• Credit Score: 710</div>
+                  <div>• Rejection: Trading history &lt; 2 years</div>
+                </div>
+              </div>
+              <div
+                class="p-4 bg-gradient-to-br from-green-900/30 to-emerald-900/30 border border-green-700/50 rounded-lg"
+              >
+                <h4 class="font-bold text-xl text-green-400 mb-2">
+                  Nearly-There FTB
+                </h4>
+                <p class="text-gray-400 text-sm mb-2">
+                  Good credit but LTV exceeds limits
+                </p>
+                <div class="text-xs text-gray-500">
+                  <div>• Avg Income: £48k</div>
+                  <div>• Credit Score: 735</div>
+                  <div>• Rejection: LTV &gt; 90%</div>
+                </div>
+              </div>
+              <div
+                class="p-4 bg-gradient-to-br from-yellow-900/30 to-orange-900/30 border border-yellow-700/50 rounded-lg"
+              >
+                <h4 class="font-bold text-xl text-yellow-400 mb-2">
+                  Minor Credit Blip
+                </h4>
+                <p class="text-gray-400 text-sm mb-2">
+                  High income but recent credit issues
+                </p>
+                <div class="text-xs text-gray-500">
+                  <div>• Avg Income: £68k</div>
+                  <div>• Credit Score: 642</div>
+                  <div>• Rejection: Credit score &lt; 650</div>
+                </div>
+              </div>
+              <div
+                class="p-4 bg-gradient-to-br from-red-900/30 to-pink-900/30 border border-red-700/50 rounded-lg"
+              >
+                <h4 class="font-bold text-xl text-red-400 mb-2">
+                  Slightly Overextended
+                </h4>
+                <p class="text-gray-400 text-sm mb-2">
+                  Good credit but high debt-to-income
+                </p>
+                <div class="text-xs text-gray-500">
+                  <div>• Avg Income: £55k</div>
+                  <div>• Credit Score: 698</div>
+                  <div>• Rejection: DTI &gt; 45%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Business Value -->
+          <div
+            class="p-6 bg-gradient-to-r from-green-900/30 to-emerald-900/30 border border-green-700/50 rounded-lg"
+          >
+            <h3 class="text-2xl font-bold mb-3 text-green-400">
+              💰 Business Impact
+            </h3>
+            <div class="grid md:grid-cols-3 gap-4 text-center">
+              <div>
+                <div class="text-3xl font-bold text-green-400">£12M+</div>
+                <div class="text-sm text-gray-400">
+                  Addressable market in rejected applications
+                </div>
+              </div>
+              <div>
+                <div class="text-3xl font-bold text-cyan-400">4 New</div>
+                <div class="text-sm text-gray-400">
+                  Product opportunities identified
+                </div>
+              </div>
+              <div>
+                <div class="text-3xl font-bold text-blue-400">Auto</div>
+                <div class="text-sm text-gray-400">
+                  No manual segmentation needed
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 17: Technical Stack & Tools -->
+      <div class="slide w-full h-full flex-col items-center p-8">
+        <div class="slide-content w-full max-w-6xl">
+          <h2 class="text-5xl font-black mb-6 text-center">
+            Complete Technical Stack
+          </h2>
+          <p class="text-xl text-gray-400 text-center mb-8">
+            From Prototyping to Production-Ready Training Data
+          </p>
+
+          <!-- Core Technologies -->
+          <div class="grid md:grid-cols-3 gap-6 mb-8">
+            <div
+              class="p-6 bg-gradient-to-br from-blue-900/30 to-indigo-900/30 border border-blue-700/50 rounded-lg"
+            >
+              <h3 class="text-2xl font-bold mb-4 text-blue-400">🤖 AI/ML</h3>
+              <ul class="space-y-2 text-sm text-gray-400">
+                <li>
+                  <span class="text-white font-bold">LangChain/LangGraph</span>
+                  - Agent orchestration
+                </li>
+                <li>
+                  <span class="text-white font-bold">GPT-4-turbo</span> -
+                  Reasoning & analysis
+                </li>
+                <li>
+                  <span class="text-white font-bold">GPT-4o Vision</span> -
+                  Document OCR
+                </li>
+                <li>
+                  <span class="text-white font-bold">FAISS</span> - Vector
+                  similarity search
+                </li>
+                <li>
+                  <span class="text-white font-bold">HuggingFace</span> -
+                  Embeddings
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="p-6 bg-gradient-to-br from-purple-900/30 to-pink-900/30 border border-purple-700/50 rounded-lg"
+            >
+              <h3 class="text-2xl font-bold mb-4 text-purple-400">
+                📊 Data Science
+              </h3>
+              <ul class="space-y-2 text-sm text-gray-400">
+                <li>
+                  <span class="text-white font-bold">scikit-learn</span> -
+                  K-Means, preprocessing
+                </li>
+                <li>
+                  <span class="text-white font-bold">UMAP</span> -
+                  Dimensionality reduction
+                </li>
+                <li>
+                  <span class="text-white font-bold">Pandas</span> - Data
+                  manipulation
+                </li>
+                <li>
+                  <span class="text-white font-bold">NumPy</span> - Numerical
+                  computing
+                </li>
+                <li>
+                  <span class="text-white font-bold">KneeLocator</span> -
+                  Optimal k detection
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="p-6 bg-gradient-to-br from-red-900/30 to-orange-900/30 border border-red-700/50 rounded-lg"
+            >
+              <h3 class="text-2xl font-bold mb-4 text-red-400">
+                👁️ Computer Vision
+              </h3>
+              <ul class="space-y-2 text-sm text-gray-400">
+                <li>
+                  <span class="text-white font-bold">OpenCV</span> - Image
+                  processing
+                </li>
+                <li>
+                  <span class="text-white font-bold">scikit-image</span> - SSIM,
+                  forensics
+                </li>
+                <li>
+                  <span class="text-white font-bold">PyMuPDF</span> - PDF
+                  processing
+                </li>
+                <li>
+                  <span class="text-white font-bold">Pillow</span> - Image
+                  manipulation
+                </li>
+                <li>
+                  <span class="text-white font-bold">ELA</span> - Manipulation
+                  detection
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Development Tools -->
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="p-6 bg-gray-900/50 border border-gray-700 rounded-lg">
+              <h3 class="text-2xl font-bold mb-4 text-green-400">
+                🛠️ Development
+              </h3>
+              <ul class="space-y-2 text-sm text-gray-400">
+                <li>
+                  <span class="text-white font-bold">Streamlit</span> - Rapid UI
+                  prototyping
+                </li>
+                <li>
+                  <span class="text-white font-bold">Plotly</span> - Interactive
+                  visualisations
+                </li>
+                <li>
+                  <span class="text-white font-bold">Python 3.9+</span> - Core
+                  language
+                </li>
+                <li>
+                  <span class="text-white font-bold">Pydantic</span> - Data
+                  validation
+                </li>
+                <li>
+                  <span class="text-white font-bold">python-dotenv</span> -
+                  Environment management
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="p-6 bg-gradient-to-br from-yellow-900/30 to-amber-900/30 border border-yellow-700/50 rounded-lg"
+            >
+              <h3 class="text-2xl font-bold mb-4 text-yellow-400">
+                ⚡ Why This Stack?
+              </h3>
+              <ul class="space-y-2 text-sm text-gray-400">
+                <li>
+                  ✓ <span class="text-white">Rapid prototyping</span> - POCs in
+                  days, not months
+                </li>
+                <li>
+                  ✓ <span class="text-white">Production-ready</span> - All tools
+                  scale to production
+                </li>
+                <li>
+                  ✓ <span class="text-white">Open source</span> - No vendor
+                  lock-in
+                </li>
+                <li>
+                  ✓ <span class="text-white">Active community</span> - Extensive
+                  documentation
+                </li>
+                <li>
+                  ✓ <span class="text-white">Battle-tested</span> - Used by
+                  thousands of companies
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Cost Comparison -->
+          <div
+            class="mt-8 p-6 bg-gradient-to-r from-green-900/30 to-blue-900/30 border border-green-700/50 rounded-lg"
+          >
+            <h3 class="text-2xl font-bold mb-4 text-center text-green-400">
+              💰 Current API Costs vs Future Proprietary Models
+            </h3>
+            <div class="grid md:grid-cols-2 gap-6">
+              <div class="text-center">
+                <div class="text-4xl font-bold text-red-400 mb-2">
+                  £0.01-0.15
+                </div>
+                <div class="text-gray-400">
+                  per analysis (current API costs)
+                </div>
+                <div class="text-sm text-gray-500 mt-2">
+                  1,000 analyses = £10-150
+                </div>
+              </div>
+              <div class="text-center">
+                <div class="text-4xl font-bold text-green-400 mb-2">£0.00</div>
+                <div class="text-gray-400">
+                  per analysis (proprietary model)
+                </div>
+                <div class="text-sm text-gray-500 mt-2">
+                  1,000 analyses = £0 + compute
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
