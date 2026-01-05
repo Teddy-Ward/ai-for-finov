@@ -114,9 +114,9 @@ All documentation has been organised into focused guides in the [`docs/`](docs/)
 
 Each POC includes comprehensive training data documentation:
 
-- `auditor_agent_poc/TRAINING_DATA_SCHEMA.md`
-- `visual_forensic_poc/TRAINING_DATA_SCHEMA.md`
-- `market_finder_poc/TRAINING_DATA_SCHEMA.md`
+- [`auditor_agent_poc/TRAINING_DATA_SCHEMA.md`](auditor_agent_poc/TRAINING_DATA_SCHEMA.md)
+- [`visual_forensic_poc/TRAINING_DATA_SCHEMA.md`](visual_forensic_poc/TRAINING_DATA_SCHEMA.md)
+- [`market_finder_poc/TRAINING_DATA_SCHEMA.md`](market_finder_poc/TRAINING_DATA_SCHEMA.md)
 
 ## Next Steps
 
@@ -126,15 +126,15 @@ Each POC includes comprehensive training data documentation:
 4. Follow the [training guide](docs/TRAINING_DATA.md) to build proprietary models
 5. Deploy models to replace expensive API calls
 
-## Contact
-
-**Ted Ward**  
-Engineer  
-[View Technical Appendix on GitHub](https://github.com/Teddy-Ward/ai-for-finov.git)
-
 ## Presentation
 
 View the full strategic presentation: [index.html](index.html)
 
 - Open in browser to see the complete "Beyond the Wrapper" narrative
 - Explains data moat strategy and integration approach
+
+## Contact
+
+**Ted Ward**  
+Engineer  
+[View Technical Appendix on GitHub](https://github.com/Teddy-Ward/ai-for-finov.git)

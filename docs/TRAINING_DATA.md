@@ -24,7 +24,7 @@ The **Visual Forensic Scanner** automatically saves every analysis as structured
 
 Replace expensive LLM API calls with your proprietary models:
 
-### Step 1: Data Collection (Already implemented)
+### Step 1: Data Collection
 
 - Run analyses on diverse documents
 - Collect both authentic and tampered samples
@@ -76,6 +76,6 @@ print(f"Accuracy: {model.score(X_test, y_test):.2%}")
 
 See the following files for complete documentation on training data structure and ML use cases:
 
-- `visual_forensic_poc/TRAINING_DATA_SCHEMA.md` - Visual Forensic Scanner training data
-- `auditor_agent_poc/TRAINING_DATA_SCHEMA.md` - Auditor Agent training data
-- `market_finder_poc/TRAINING_DATA_SCHEMA.md` - Market Finder training data
+- [`visual_forensic_poc/TRAINING_DATA_SCHEMA.md`](visual_forensic_poc/TRAINING_DATA_SCHEMA.md) - Visual Forensic Scanner training data
+- [`auditor_agent_poc/TRAINING_DATA_SCHEMA.md`](auditor_agent_poc/TRAINING_DATA_SCHEMA.md) - Auditor Agent training data
+- [`market_finder_poc/TRAINING_DATA_SCHEMA.md`](market_finder_poc/TRAINING_DATA_SCHEMA.md) - Market Finder training data
