@@ -132,9 +132,3 @@ View the full strategic presentation: [index.html](index.html)
 
 - Open in browser to see the complete "Beyond the Wrapper" narrative
 - Explains data moat strategy and integration approach
-
-## Contact
-
-**Ted Ward**  
-Engineer  
-[View Technical Appendix on GitHub](https://github.com/Teddy-Ward/ai-for-finov.git)
