@@ -21,5 +21,14 @@ faiss-cpu
 sentence-transformers
 pypdf
 
+# For Visual Forensic POC (PDF comparison)
+PyPDF2
+pdf2image
+Pillow
+diffimg
+opencv-python
+numpy
+scikit-image
+
 # For the Cluster analysis tool (K-Means Clustering)
 kneed

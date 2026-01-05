@@ -6,7 +6,8 @@ from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 
 # --- Configuration ---
-DATA_PATH = '../data/mock_applications.csv'
+from pathlib import Path
+DATA_PATH = Path(__file__).parent.parent / 'data' / 'mock_applications.csv'
 DB_PATH = "knowledge_base/faiss_index"
 
 @tool

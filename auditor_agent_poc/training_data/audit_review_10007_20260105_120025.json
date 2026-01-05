@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "timestamp": "2026-01-05T12:00:25.953597",
+    "applicant_id": 10007,
+    "broker_id": "human_expert"
+  },
+  "applicant_data": {
+    "ApplicantID": 10007,
+    "Income": 57154.52,
+    "CreditScore": 747,
+    "LTV": 93.78,
+    "DebtToIncomeRatio": 33.86,
+    "EmploymentStatus": "PAYE",
+    "RejectionReason": "LTV exceeds product maximum"
+  },
+  "ai_output": {
+    "original_audit": "## Audit Report for Applicant 10007\n\n### **Internal Consistency**\n- **Income and Employment Status**: The applicant has a reported income of \u00a357,154.52 and is employed under PAYE (Pay As You Earn), which is consistent and typical for a salaried employee.\n- **Credit Score**: The credit score is 747, which generally indicates good creditworthiness.\n- **Loan-to-Value (LTV)**: The LTV is reported at 93.78%, which is quite high and typically indicates a smaller down payment relative to the loan amount.\n- **Debt-to-Income Ratio**: The ratio is 33.86%, which is within typical limits for mortgage approvals, suggesting that the applicant's debt levels are manageable relative to their income.\n- **Rejection Reason**: The application was previously rejected due to the LTV exceeding the product's maximum limit. This suggests that the LTV might be higher than what is typically allowed.\n\n### **Compliance Checks**\nUnfortunately, there were technical issues with the compliance checker tool, and I was unable to retrieve specific policy limits and requirements. However, based on the rejection reason provided in the application data, it can be inferred that the LTV of 93.78% exceeds the allowable limit for the mortgage product.\n\n### **Final Recommendation**\n- **Action Required**: The application cannot be submitted as is due to the high LTV, which has already led to a previous rejection. It is recommended to either increase the down payment to reduce the LTV or consider a different mortgage product that accommodates a higher LTV. Further compliance checks should be performed once the technical issues with the compliance checker tool are resolved to ensure all other aspects meet the lender's policies."
+  },
+  "human_review": {
+    "edited_audit": "## Audit Report for Applicant 10007\n\n### **Internal Consistency**\n- **Income and Employment Status**: The applicant has a reported income of \u00a357,154.52 and is employed under PAYE (Pay As You Earn), which is consistent and typical for a salaried employee.\n- **Credit Score**: The credit score is 747, which generally indicates good creditworthiness.\n- **Loan-to-Value (LTV)**: The LTV is reported at 93.78%, which is quite high and typically indicates a smaller down payment relative to the loan amount.\n- **Debt-to-Income Ratio**: The ratio is 33.86%, which is within typical limits for mortgage approvals, suggesting that the applicant's debt levels are manageable relative to their income.\n- **Rejection Reason**: The application was previously rejected due to the LTV exceeding the product's maximum limit. This suggests that the LTV might be higher than what is typically allowed.\n\n### **Compliance Checks**\nUnfortunately, there were technical issues with the compliance checker tool, and I was unable to retrieve specific policy limits and requirements. However, based on the rejection reason provided in the application data, it can be inferred that the LTV of 93.78% exceeds the allowable limit for the mortgage product.\n\n### **Final Recommendation**\n- **Action Required**: The application cannot be submitted as is due to the high LTV, which has already led to a previous rejection. It is recommended to either increase the down payment to reduce the LTV or consider a different mortgage product that accommodates a higher LTV. Further compliance checks should be performed once the technical issues with the compliance checker tool are resolved to ensure all other aspects meet the lender's policies.",
+    "verdict": "Ready for Submission",
+    "confidence_level": 100,
+    "ai_agreement": "Fully Agree",
+    "key_changes_noted": "",
+    "additional_notes": ""
+  },
+  "change_analysis": {
+    "has_changes": false,
+    "change_summary": "No changes made - human agreed with AI assessment",
+    "reasoning_analysis": "Human expert validated AI's audit without modifications"
+  },
+  "training_signals": {
+    "requires_retraining": false,
+    "agreement_level": "Fully Agree",
+    "error_type": "none",
+    "learning_priority": "low"
+  }
+}
