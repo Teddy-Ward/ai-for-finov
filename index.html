@@ -22,6 +22,12 @@
         display: none;
         opacity: 0;
         transition: opacity 0.5s ease-in-out;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+        align-items: center;
+        justify-content: flex-start;
       }
       .slide.active {
         display: flex;
@@ -29,6 +35,8 @@
       }
       .slide-content {
         animation: fadeIn 0.8s ease-in-out;
+        width: 100%;
+        margin: auto;
       }
       @keyframes fadeIn {
         from {
@@ -62,7 +70,7 @@
     >
       <!-- Slide 1: Title -->
       <div
-        class="slide active w-full h-full flex-col items-center justify-center text-center p-8 bg-black"
+        class="slide active w-full h-full flex-col items-center text-center p-8 bg-black"
       >
         <div class="slide-content w-full">
           <h1
@@ -85,7 +93,7 @@
       </div>
 
       <!-- Slide 2: The AI Wrapper Dilemma -->
-      <div class="slide w-full h-full flex-col items-center justify-center p-8">
+      <div class="slide w-full h-full flex-col items-center p-8">
         <div class="slide-content w-full max-w-5xl">
           <h2 class="text-4xl md:text-5xl font-bold text-center">
             The AI Wrapper Dilemma
@@ -155,7 +163,7 @@
       </div>
 
       <!-- Slide 3: Our Strategy - The Data Moat -->
-      <div class="slide w-full h-full flex-col items-center justify-center p-8">
+      <div class="slide w-full h-full flex-col items-center p-8">
         <div class="slide-content w-full max-w-6xl">
           <h2 class="text-4xl md:text-5xl font-bold text-center">
             Our Strategy: Build the Data Moat While We Operate
@@ -247,7 +255,7 @@
       </div>
 
       <!-- Slide 4: Three Pillars of Data Collection -->
-      <div class="slide w-full h-full flex-col items-center justify-center p-8">
+      <div class="slide w-full h-full flex-col items-center p-8">
         <div class="slide-content w-full max-w-6xl">
           <h2 class="text-4xl md:text-5xl font-bold text-center">
             Three Pillars: Products That Collect Their Own Training Data
@@ -380,7 +388,7 @@
       </div>
 
       <!-- Slide 5: Pillar 1 - Auditor Agent Deep Dive -->
-      <div class="slide w-full h-full flex-col items-center justify-center p-8">
+      <div class="slide w-full h-full flex-col items-center p-8">
         <div class="slide-content w-full max-w-6xl">
           <h2 class="text-4xl md:text-5xl font-bold text-center">
             <span class="text-blue-400">Pillar 1:</span> Auditor Agent
@@ -488,7 +496,7 @@
       </div>
 
       <!-- Slide 6: Pillar 2 - Visual Forensic Deep Dive -->
-      <div class="slide w-full h-full flex-col items-center justify-center p-8">
+      <div class="slide w-full h-full flex-col items-center p-8">
         <div class="slide-content w-full max-w-6xl">
           <h2 class="text-4xl md:text-5xl font-bold text-center">
             <span class="text-red-400">Pillar 2:</span> Visual Forensic Analyser
@@ -636,7 +644,7 @@
       </div>
 
       <!-- Slide 7: Pillar 3 - Market Finder Deep Dive -->
-      <div class="slide w-full h-full flex-col items-center justify-center p-8">
+      <div class="slide w-full h-full flex-col items-center p-8">
         <div class="slide-content w-full max-w-6xl">
           <h2 class="text-4xl md:text-5xl font-bold text-center">
             <span class="text-yellow-400">Pillar 3:</span> Market Opportunity
@@ -756,7 +764,7 @@
       </div>
 
       <!-- Slide 8: The Data Flywheel -->
-      <div class="slide w-full h-full flex-col items-center justify-center p-8">
+      <div class="slide w-full h-full flex-col items-center p-8">
         <div class="slide-content w-full max-w-5xl">
           <h2 class="text-4xl md:text-5xl font-bold text-center">
             The Data Flywheel: How We Become Defensible
@@ -847,7 +855,7 @@
       </div>
 
       <!-- Slide 9: Implementation Roadmap -->
-      <div class="slide w-full h-full flex-col items-center justify-center p-8">
+      <div class="slide w-full h-full flex-col items-center p-8">
         <div class="slide-content w-full max-w-6xl">
           <h2 class="text-4xl md:text-5xl font-bold text-center">
             12-Month Roadmap: From Wrapper to Proprietary
@@ -951,7 +959,7 @@
       </div>
 
       <!-- Slide 10: Competitive Landscape -->
-      <div class="slide w-full h-full flex-col items-center justify-center p-8">
+      <div class="slide w-full h-full flex-col items-center p-8">
         <div class="slide-content w-full max-w-6xl">
           <h2 class="text-4xl md:text-5xl font-bold text-center">
             Why We Win: The Proprietary Data Advantage
@@ -1042,9 +1050,7 @@
       </div>
 
       <!-- Slide 11: 2-Year Timeline Comparison -->
-      <div
-        class="slide w-full h-full flex-col items-center justify-center p-8 bg-black"
-      >
+      <div class="slide w-full h-full flex-col items-center p-8 bg-black">
         <div class="slide-content">
           <h2 class="text-5xl font-black mb-6">The 2-Year Difference</h2>
 
@@ -1153,9 +1159,7 @@
       </div>
 
       <!-- Slide 12: Legacy Integration -->
-      <div
-        class="slide w-full h-full flex-col items-center justify-center p-8 bg-black"
-      >
+      <div class="slide w-full h-full flex-col items-center p-8 bg-black">
         <div class="slide-content">
           <h2 class="text-5xl font-black mb-4">How We Integrate Today</h2>
 
@@ -1254,7 +1258,7 @@
 
       <!-- Slide 13: Thank You -->
       <div
-        class="slide w-full h-full flex-col items-center justify-center p-8 text-center bg-black"
+        class="slide w-full h-full flex-col items-center p-8 text-center bg-black"
       >
         <div class="slide-content">
           <h2 class="text-6xl font-black">Beyond the Wrapper</h2>
@@ -1375,6 +1379,8 @@
           // Show new slide
           if (slides[currentSlide]) {
             slides[currentSlide].classList.add("active");
+            // Scroll to top of the slide
+            slides[currentSlide].scrollTop = 0;
           }
 
           // Update counter and buttons
